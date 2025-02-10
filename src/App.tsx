@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import WorldMap from './components/WorldMap';
+import logo from './logo-simple.svg';
 
 function App() {
   const [isDark, setIsDark] = useState(true);
@@ -11,16 +12,27 @@ function App() {
       <header className="app-header">
         <div className="header-content">
           <div className="header-left">
-            <div className="logo">FB</div>
+            <div className="logo">
+              <img src={logo} alt="Logo" />
+            </div>
             <h1>FishBase Data Coverage Analysis</h1>
           </div>
-          <button 
-            className="theme-toggle" 
-            onClick={() => setIsDark(!isDark)}
-            aria-label="Toggle theme"
-          >
-            {isDark ? '☀️' : '🌙'}
-          </button>
+          <div className="header-right">
+            <button 
+              className="header-button"
+              onClick={() => setShowInfo(true)}
+              title="About this visualization"
+            >
+              About
+            </button>
+            <button 
+              className="theme-toggle" 
+              onClick={() => setIsDark(!isDark)}
+              aria-label="Toggle theme"
+            >
+              {isDark ? '☀️' : '🌙'}
+            </button>
+          </div>
         </div>
       </header>
       {showInfo && (
@@ -28,8 +40,7 @@ function App() {
           <div className="info-content">
             <h2>About This Tool</h2>
             <p>
-              This visualization tool analyzes data gaps across aquatic food systems using the FishBase database, 
-              focusing on 12 countries crucial for food security and employment in the fisheries sector.
+              This visualization tool analyzes data gaps across aquatic food systems using the FishBase database.
             </p>
             <h3>Data Categories</h3>
             <ul>

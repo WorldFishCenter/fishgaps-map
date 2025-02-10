@@ -86,17 +86,126 @@ const countryNameVariations: { [key: string]: string[] } = {
   'Iran': ['Iran (Islamic Republic of)'],
 };
 
+interface CategoryRange {
+  min: number;
+  max: number;
+  label: string;
+}
+
+interface CategoryInfo {
+  description: string;
+  ranges: CategoryRange[];
+}
+
+interface CategoryInfoMap {
+  [key: string]: CategoryInfo;
+}
+
+const CATEGORY_INFO: CategoryInfoMap = {
+  'conservation': {
+    description: 'Conservation status and protection measures for fish species',
+    ranges: [
+      { min: 0, max: 20, label: 'Critical Data Gaps' },
+      { min: 20, max: 40, label: 'Limited Protection Data' },
+      { min: 40, max: 60, label: 'Basic Conservation Info' },
+      { min: 60, max: 80, label: 'Well Documented' },
+      { min: 80, max: 100, label: 'Comprehensive Coverage' }
+    ]
+  },
+  'distribution': {
+    description: 'Geographic range and habitat information for species',
+    ranges: [
+      { min: 0, max: 20, label: 'Unknown Distributions' },
+      { min: 20, max: 40, label: 'Partial Range Data' },
+      { min: 40, max: 60, label: 'Known Key Habitats' },
+      { min: 60, max: 80, label: 'Detailed Mapping' },
+      { min: 80, max: 100, label: 'Full Range Mapped' }
+    ]
+  },
+  'human uses': {
+    description: 'Commercial and cultural importance of fish species',
+    ranges: [
+      { min: 0, max: 20, label: 'Usage Unknown' },
+      { min: 20, max: 40, label: 'Basic Use Data' },
+      { min: 40, max: 60, label: 'Main Uses Documented' },
+      { min: 60, max: 80, label: 'Well Studied Uses' },
+      { min: 80, max: 100, label: 'Complete Usage Data' }
+    ]
+  },
+  'human-related': {
+    description: 'Socioeconomic value and cultural significance',
+    ranges: [
+      { min: 0, max: 20, label: 'No Impact Data' },
+      { min: 20, max: 40, label: 'Basic Impact Info' },
+      { min: 40, max: 60, label: 'Known Importance' },
+      { min: 60, max: 80, label: 'Well Documented Value' },
+      { min: 80, max: 100, label: 'Full Impact Assessment' }
+    ]
+  },
+  'population dynamics': {
+    description: 'Population health, growth rates, and mortality',
+    ranges: [
+      { min: 0, max: 20, label: 'No Population Data' },
+      { min: 20, max: 40, label: 'Basic Population Stats' },
+      { min: 40, max: 60, label: 'Growth Patterns Known' },
+      { min: 60, max: 80, label: 'Detailed Demographics' },
+      { min: 80, max: 100, label: 'Full Population Model' }
+    ]
+  },
+  'reproduction': {
+    description: 'Breeding patterns and reproductive biology',
+    ranges: [
+      { min: 0, max: 20, label: 'Unknown Breeding' },
+      { min: 20, max: 40, label: 'Basic Breeding Info' },
+      { min: 40, max: 60, label: 'Known Life Cycles' },
+      { min: 60, max: 80, label: 'Detailed Breeding Data' },
+      { min: 80, max: 100, label: 'Complete Life History' }
+    ]
+  },
+  'species': {
+    description: 'Taxonomic and morphological information',
+    ranges: [
+      { min: 0, max: 20, label: 'Minimal Species Data' },
+      { min: 20, max: 40, label: 'Basic Description' },
+      { min: 40, max: 60, label: 'Standard Documentation' },
+      { min: 60, max: 80, label: 'Detailed Description' },
+      { min: 80, max: 100, label: 'Full Documentation' }
+    ]
+  },
+  'trophic ecology': {
+    description: 'Feeding relationships and food web position',
+    ranges: [
+      { min: 0, max: 20, label: 'Diet Unknown' },
+      { min: 20, max: 40, label: 'Basic Diet Info' },
+      { min: 40, max: 60, label: 'Known Food Web' },
+      { min: 60, max: 80, label: 'Detailed Food Web' },
+      { min: 80, max: 100, label: 'Complete Food Web' }
+    ]
+  }
+};
+
 interface WorldMapProps {
   isDark: boolean;
 }
 
-const RANGES = [
-  { min: 0, max: 20, color: '#edf8b1' },
-  { min: 20, max: 40, color: '#7fcdbb' },
-  { min: 40, max: 60, color: '#2c7fb8' },
-  { min: 60, max: 80, color: '#253494' },
-  { min: 80, max: 100, color: '#081d58' }
-];
+interface Range {
+  min: number;
+  max: number;
+  color: string;
+}
+
+const COLORS = ['#edf8b1', '#7fcdbb', '#2c7fb8', '#253494', '#081d58'];
+
+const calculateRanges = (categoryData: { [country: string]: number }): Range[] => {
+  // Fixed ranges with 20% intervals
+  return [
+    { min: 0, max: 20, color: COLORS[0] },
+    { min: 20, max: 40, color: COLORS[1] },
+    { min: 40, max: 60, color: COLORS[2] },
+    { min: 60, max: 80, color: COLORS[3] },
+    { min: 80, max: 100, color: COLORS[4] }
+  ];
+};
 
 const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
   const mapContainer = useRef<HTMLDivElement>(null);
@@ -106,8 +215,24 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [activeRanges, setActiveRanges] = useState<number[]>([0, 1, 2, 3, 4]);
   const [mapError, setMapError] = useState<string | null>(null);
+  const [ranges, setRanges] = useState<Range[]>([]);
+  const [showHint, setShowHint] = useState(() => {
+    return localStorage.getItem('mapHintClosed') !== 'true';
+  });
 
-  // Move getCountryData into useCallback to properly handle dependencies
+  const handleCloseHint = () => {
+    setShowHint(false);
+    localStorage.setItem('mapHintClosed', 'true');
+  };
+
+  // Update ranges when category changes
+  useEffect(() => {
+    const categoryData = dataByCategory[selectedCategory];
+    const newRanges = calculateRanges(categoryData);
+    setRanges(newRanges);
+  }, [selectedCategory]);
+
+  // Update getCountryData to include range calculation
   const getCountryData = React.useCallback(() => {
     const data: { [key: string]: number } = {};
     const categoryData = dataByCategory[selectedCategory];
@@ -134,7 +259,7 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
     });
     
     return data;
-  }, [selectedCategory]); // Add selectedCategory as dependency
+  }, [selectedCategory]);
 
   const handleRangeToggle = (rangeIndex: number) => {
     setActiveRanges(prev => {
@@ -213,17 +338,15 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
             'case',
             ['has', ['get', 'name_en'], ['literal', countryData]],
             [
-              'interpolate',
-              ['linear'],
+              'step',
               ['get', ['get', 'name_en'], ['literal', countryData]],
-              0, isDark ? '#1a1a1a' : '#f7f7f7',
-              20, '#edf8b1',
-              40, '#7fcdbb',
-              60, '#2c7fb8',
-              80, '#253494',
-              100, '#081d58'
+              COLORS[0],
+              20, COLORS[1],
+              40, COLORS[2],
+              60, COLORS[3],
+              80, COLORS[4]
             ],
-            isDark ? '#2d2d2d' : '#d9d9d9'
+            isDark ? '#2d2d2d' : '#d9d9d9' // Color for countries with no data
           ],
           'fill-opacity': [
             'case',
@@ -232,10 +355,10 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
               'match',
               ['floor', ['/', ['get', ['get', 'name_en'], ['literal', countryData]], 20]],
               activeRanges,
-              0.7,
-              0.15
+              0.8,
+              0.2
             ],
-            0.15
+            0.2
           ]
         }
       });
@@ -251,6 +374,11 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
             if (popup.current) {
               popup.current.remove();
             }
+
+            // Get the range label based on the value
+            const rangeIndex = Math.floor(value / 20);
+            const rangeLabel = CATEGORY_INFO[selectedCategory]?.ranges[rangeIndex]?.label || '';
+
             popup.current = new mapboxgl.Popup({
               closeButton: false,
               closeOnClick: false,
@@ -259,8 +387,15 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
               .setLngLat(e.lngLat)
               .setHTML(`
                 <div class="popup-content">
-                  <strong>${properties.name_en}</strong><br/>
-                  ${selectedCategory}: ${value.toFixed(1)}%
+                  <strong>${properties.name_en}</strong>
+                  <div class="popup-category">
+                    <span class="popup-label">${selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1)}</span>
+                    <span class="popup-value">${value.toFixed(1)}%</span>
+                  </div>
+                  <div class="popup-quality">
+                    <span class="quality-label">${CATEGORY_INFO[selectedCategory]?.ranges[Math.floor(value / 20)]?.label}</span>
+                    <small class="quality-desc">${CATEGORY_INFO[selectedCategory]?.description}</small>
+                  </div>
                 </div>
               `)
               .addTo(currentMap);
@@ -296,10 +431,39 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
         map.current = null;
       }
     };
-  }, [isDark, selectedCategory, activeRanges, selectedCountry]);
+  }, [isDark, selectedCategory, activeRanges]); // Removed selectedCountry from dependencies
+
+  // Add separate effect for highlighting selected country
+  useEffect(() => {
+    const currentMap = map.current;
+    if (!currentMap) return;
+
+    // Update the layer paint properties for the selected country
+    if (currentMap.getLayer('countries-fill')) {
+      currentMap.setPaintProperty('countries-fill', 'fill-outline-color', [
+        'case',
+        ['==', ['get', 'name_en'], selectedCountry],
+        '#3498db',
+        'rgba(255, 255, 255, 0.1)'
+      ]);
+    }
+  }, [selectedCountry]);
 
   return (
     <div className="map-container">
+      {showHint && (
+        <div className="map-hint">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+          Click on any country to view detailed data coverage analysis
+          <button className="hint-close" onClick={handleCloseHint} aria-label="Close hint">
+            ✕
+          </button>
+        </div>
+      )}
       <CountryAnalysis
         data={mapData}
         selectedCategory={selectedCategory}
@@ -318,8 +482,11 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
 
       <div className={`map-legend ${!isDark ? 'light-mode' : ''}`}>
         <div className="legend-title">Data Coverage (%)</div>
+        <div className="legend-description">
+          {CATEGORY_INFO[selectedCategory]?.description}
+        </div>
         <div className="legend-scale">
-          {RANGES.map((range, index) => (
+          {ranges.map((range: Range, index: number) => (
             <div
               key={index}
               className={`legend-label ${!activeRanges.includes(index) ? 'inactive' : ''}`}
@@ -332,7 +499,10 @@ const WorldMap: React.FC<WorldMapProps> = ({ isDark }) => {
                   opacity: activeRanges.includes(index) ? 1 : 0.3
                 }}
               />
-              <span>{range.min}-{range.max}</span>
+              <div className="legend-label-content">
+                <span>{range.min.toFixed(1)}-{range.max.toFixed(1)}%</span>
+                <small>{CATEGORY_INFO[selectedCategory]?.ranges[index]?.label}</small>
+              </div>
             </div>
           ))}
         </div>
