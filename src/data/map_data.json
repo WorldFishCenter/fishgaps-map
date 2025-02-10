@@ -1,0 +1,3941 @@
+[
+  {
+    "country": "Adelaide I.",
+    "data": {
+      "conservation": 40,
+      "distribution": 50,
+      "human uses": 60,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 31.8182,
+      "species": 23.0769,
+      "trophic ecology": 12.5
+    }
+  },
+  {
+    "country": "Admiralty Is.",
+    "data": {
+      "conservation": 44.8571,
+      "distribution": 92.8571,
+      "human uses": 62.1429,
+      "human-related": 100,
+      "population dynamics": 20.5674,
+      "reproduction": 39.861,
+      "species": 47.5824,
+      "trophic ecology": 40
+    }
+  },
+  {
+    "country": "Afghanistan",
+    "data": {
+      "conservation": 41.2427,
+      "distribution": 65.625,
+      "human uses": 54.2188,
+      "human-related": 100,
+      "population dynamics": 0.7812,
+      "reproduction": 31.7164,
+      "species": 35.1562,
+      "trophic ecology": 19.3359
+    }
+  },
+  {
+    "country": "Alaska",
+    "data": {
+      "conservation": 43.6277,
+      "distribution": 67.2222,
+      "human uses": 51.7407,
+      "human-related": 99.6296,
+      "population dynamics": 20.1835,
+      "reproduction": 36.1751,
+      "species": 32.5214,
+      "trophic ecology": 31.3426
+    }
+  },
+  {
+    "country": "Albania",
+    "data": {
+      "conservation": 48.9459,
+      "distribution": 89.7321,
+      "human uses": 62.1875,
+      "human-related": 99.8884,
+      "population dynamics": 32.0594,
+      "reproduction": 54.6995,
+      "species": 45.8104,
+      "trophic ecology": 45.6473
+    }
+  },
+  {
+    "country": "Algeria",
+    "data": {
+      "conservation": 49.2016,
+      "distribution": 93.1373,
+      "human uses": 61.3725,
+      "human-related": 99.8039,
+      "population dynamics": 32.2702,
+      "reproduction": 52.3858,
+      "species": 45.8974,
+      "trophic ecology": 45.9314
+    }
+  },
+  {
+    "country": "American Samoa",
+    "data": {
+      "conservation": 42.0762,
+      "distribution": 86.8594,
+      "human uses": 52.0368,
+      "human-related": 99.8029,
+      "population dynamics": 17.9554,
+      "reproduction": 35.6843,
+      "species": 41.7366,
+      "trophic ecology": 30.979
+    }
+  },
+  {
+    "country": "Amsterdam I.",
+    "data": {
+      "conservation": 48.2051,
+      "distribution": 71.7949,
+      "human uses": 54.359,
+      "human-related": 100,
+      "population dynamics": 42.5,
+      "reproduction": 26.9172,
+      "species": 36.2919,
+      "trophic ecology": 26.2821
+    }
+  },
+  {
+    "country": "Andaman Is.",
+    "data": {
+      "conservation": 42.9605,
+      "distribution": 82.9463,
+      "human uses": 54.1074,
+      "human-related": 99.8911,
+      "population dynamics": 21.3043,
+      "reproduction": 36.3495,
+      "species": 40.8786,
+      "trophic ecology": 30.4427
+    }
+  },
+  {
+    "country": "Andorra",
+    "data": {
+      "conservation": 40,
+      "distribution": 100,
+      "human uses": 71.4286,
+      "human-related": 92.8571,
+      "population dynamics": 0,
+      "reproduction": 80.1948,
+      "species": 62.6374,
+      "trophic ecology": 42.8571
+    }
+  },
+  {
+    "country": "Angola",
+    "data": {
+      "conservation": 43.6831,
+      "distribution": 63.2554,
+      "human uses": 61.2671,
+      "human-related": 99.9513,
+      "population dynamics": 11.412,
+      "reproduction": 26.1172,
+      "species": 31.549,
+      "trophic ecology": 21.808
+    }
+  },
+  {
+    "country": "Anguilla",
+    "data": {
+      "conservation": 44.0185,
+      "distribution": 78.9838,
+      "human uses": 55.1963,
+      "human-related": 100,
+      "population dynamics": 28.5057,
+      "reproduction": 39.4387,
+      "species": 39.8472,
+      "trophic ecology": 46.4781
+    }
+  },
+  {
+    "country": "Antarctica",
+    "data": {
+      "conservation": 43.299,
+      "distribution": 57.5,
+      "human uses": 51.4,
+      "human-related": 100,
+      "population dynamics": 2,
+      "reproduction": 22.5002,
+      "species": 28.2692,
+      "trophic ecology": 19.625
+    }
+  },
+  {
+    "country": "Antigua Barbuda",
+    "data": {
+      "conservation": 43.6364,
+      "distribution": 79.0514,
+      "human uses": 55.8103,
+      "human-related": 100,
+      "population dynamics": 27.3622,
+      "reproduction": 39.9227,
+      "species": 40.0274,
+      "trophic ecology": 46.1957
+    }
+  },
+  {
+    "country": "Argentina",
+    "data": {
+      "conservation": 42.9418,
+      "distribution": 49.5567,
+      "human uses": 48.5106,
+      "human-related": 99.5567,
+      "population dynamics": 8.2083,
+      "reproduction": 23.1494,
+      "species": 30.1964,
+      "trophic ecology": 17.9521
+    }
+  },
+  {
+    "country": "Armenia",
+    "data": {
+      "conservation": 41.0909,
+      "distribution": 80,
+      "human uses": 61.8182,
+      "human-related": 100,
+      "population dynamics": 1.8182,
+      "reproduction": 58.7649,
+      "species": 51.6084,
+      "trophic ecology": 40
+    }
+  },
+  {
+    "country": "Aruba",
+    "data": {
+      "conservation": 43.9156,
+      "distribution": 81.9588,
+      "human uses": 56.9072,
+      "human-related": 99.9141,
+      "population dynamics": 24.1026,
+      "reproduction": 39.3956,
+      "species": 40.7216,
+      "trophic ecology": 46.4347
+    }
+  },
+  {
+    "country": "Ascension I.",
+    "data": {
+      "conservation": 45.4369,
+      "distribution": 75.2427,
+      "human uses": 58.2524,
+      "human-related": 99.7573,
+      "population dynamics": 32.6923,
+      "reproduction": 40.1402,
+      "species": 38.3869,
+      "trophic ecology": 40.4126
+    }
+  },
+  {
+    "country": "Australia",
+    "data": {
+      "conservation": 41.3359,
+      "distribution": 58.5786,
+      "human uses": 46.9636,
+      "human-related": 99.6418,
+      "population dynamics": 12.7779,
+      "reproduction": 25.1364,
+      "species": 29.6193,
+      "trophic ecology": 16.2955
+    }
+  },
+  {
+    "country": "Austria",
+    "data": {
+      "conservation": 44.0566,
+      "distribution": 80.9524,
+      "human uses": 76.5714,
+      "human-related": 99.0476,
+      "population dynamics": 2.8037,
+      "reproduction": 60.9354,
+      "species": 44.3223,
+      "trophic ecology": 41.4286
+    }
+  },
+  {
+    "country": "Azerbaijan",
+    "data": {
+      "conservation": 43.9707,
+      "distribution": 67.3913,
+      "human uses": 52.8261,
+      "human-related": 98.913,
+      "population dynamics": 2.1739,
+      "reproduction": 46.8469,
+      "species": 38.3779,
+      "trophic ecology": 33.4239
+    }
+  },
+  {
+    "country": "Azores Is.",
+    "data": {
+      "conservation": 44.9105,
+      "distribution": 83.2402,
+      "human uses": 55.7542,
+      "human-related": 100,
+      "population dynamics": 23.9782,
+      "reproduction": 38.1215,
+      "species": 37.1294,
+      "trophic ecology": 31.3547
+    }
+  },
+  {
+    "country": "Bahamas",
+    "data": {
+      "conservation": 42.4824,
+      "distribution": 59.8434,
+      "human uses": 50.0895,
+      "human-related": 99.9441,
+      "population dynamics": 17.7778,
+      "reproduction": 30.702,
+      "species": 32.2148,
+      "trophic ecology": 29.6141
+    }
+  },
+  {
+    "country": "Bahrain",
+    "data": {
+      "conservation": 45.351,
+      "distribution": 79.1271,
+      "human uses": 55.6357,
+      "human-related": 99.9051,
+      "population dynamics": 29.7913,
+      "reproduction": 40.6717,
+      "species": 43.8768,
+      "trophic ecology": 31.0721
+    }
+  },
+  {
+    "country": "Balleny Is.",
+    "data": {
+      "conservation": 51.4286,
+      "distribution": 85.7143,
+      "human uses": 51.4286,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 53.2468,
+      "species": 38.4615,
+      "trophic ecology": 32.1429
+    }
+  },
+  {
+    "country": "Bangladesh",
+    "data": {
+      "conservation": 43.9788,
+      "distribution": 77.5717,
+      "human uses": 59.5616,
+      "human-related": 99.9157,
+      "population dynamics": 19.1275,
+      "reproduction": 34.0691,
+      "species": 41.5229,
+      "trophic ecology": 27.8246
+    }
+  },
+  {
+    "country": "Barbados",
+    "data": {
+      "conservation": 43.6773,
+      "distribution": 78.424,
+      "human uses": 55.3096,
+      "human-related": 100,
+      "population dynamics": 26.3551,
+      "reproduction": 39.5866,
+      "species": 39.4429,
+      "trophic ecology": 45.2158
+    }
+  },
+  {
+    "country": "Bassas da India",
+    "data": {
+      "conservation": 42.6403,
+      "distribution": 97.0297,
+      "human uses": 76.8977,
+      "human-related": 100,
+      "population dynamics": 26.4026,
+      "reproduction": 42.6643,
+      "species": 47.4486,
+      "trophic ecology": 40.9241
+    }
+  },
+  {
+    "country": "Belarus",
+    "data": {
+      "conservation": 42.3284,
+      "distribution": 96.6102,
+      "human uses": 64.4068,
+      "human-related": 99.1525,
+      "population dynamics": 4.918,
+      "reproduction": 68.6054,
+      "species": 50.5867,
+      "trophic ecology": 50
+    }
+  },
+  {
+    "country": "Belgium",
+    "data": {
+      "conservation": 51.1025,
+      "distribution": 98.4694,
+      "human uses": 67.7551,
+      "human-related": 99.7449,
+      "population dynamics": 46.6368,
+      "reproduction": 67.8496,
+      "species": 56.2009,
+      "trophic ecology": 59.1837
+    }
+  },
+  {
+    "country": "Belize",
+    "data": {
+      "conservation": 43.0159,
+      "distribution": 68.3258,
+      "human uses": 53.1222,
+      "human-related": 99.8492,
+      "population dynamics": 20.3008,
+      "reproduction": 36.071,
+      "species": 36.2803,
+      "trophic ecology": 37.2549
+    }
+  },
+  {
+    "country": "Benin",
+    "data": {
+      "conservation": 44.0373,
+      "distribution": 73.6156,
+      "human uses": 60,
+      "human-related": 99.7557,
+      "population dynamics": 10.3393,
+      "reproduction": 32.5302,
+      "species": 36.2065,
+      "trophic ecology": 26.7508
+    }
+  },
+  {
+    "country": "Bermuda",
+    "data": {
+      "conservation": 43.9129,
+      "distribution": 79.5876,
+      "human uses": 54.8454,
+      "human-related": 100,
+      "population dynamics": 24.1803,
+      "reproduction": 38.3649,
+      "species": 38.3188,
+      "trophic ecology": 40.2062
+    }
+  },
+  {
+    "country": "Bhutan",
+    "data": {
+      "conservation": 40.3846,
+      "distribution": 78.8462,
+      "human uses": 58.8462,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 34.4555,
+      "species": 42.1598,
+      "trophic ecology": 28.3654
+    }
+  },
+  {
+    "country": "Bolivia",
+    "data": {
+      "conservation": 40.2804,
+      "distribution": 33.1776,
+      "human uses": 46.0748,
+      "human-related": 100,
+      "population dynamics": 0.7009,
+      "reproduction": 15.5976,
+      "species": 25.3595,
+      "trophic ecology": 8.8201
+    }
+  },
+  {
+    "country": "Bon. Eust. Saba",
+    "data": {
+      "conservation": 42.8571,
+      "distribution": 85.7143,
+      "human uses": 65.7143,
+      "human-related": 100,
+      "population dynamics": 14.2857,
+      "reproduction": 35.0649,
+      "species": 45.0549,
+      "trophic ecology": 64.2857
+    }
+  },
+  {
+    "country": "Bosnia Herzegov.",
+    "data": {
+      "conservation": 49.8477,
+      "distribution": 89.9425,
+      "human uses": 62.1264,
+      "human-related": 99.8563,
+      "population dynamics": 32.6087,
+      "reproduction": 56.9321,
+      "species": 45.4686,
+      "trophic ecology": 47.4856
+    }
+  },
+  {
+    "country": "Botswana",
+    "data": {
+      "conservation": 40,
+      "distribution": 93.2584,
+      "human uses": 64.4944,
+      "human-related": 100,
+      "population dynamics": 20,
+      "reproduction": 22.5235,
+      "species": 33.3621,
+      "trophic ecology": 30.3371
+    }
+  },
+  {
+    "country": "Bouvet I.",
+    "data": {
+      "conservation": 50.7692,
+      "distribution": 100,
+      "human uses": 50.7692,
+      "human-related": 100,
+      "population dynamics": 7.6923,
+      "reproduction": 39.1608,
+      "species": 44.3787,
+      "trophic ecology": 51.9231
+    }
+  },
+  {
+    "country": "Br Antarctic Tr",
+    "data": {
+      "conservation": 60,
+      "distribution": 100,
+      "human uses": 80,
+      "human-related": 100,
+      "population dynamics": 50,
+      "reproduction": 68.1818,
+      "species": 69.2308,
+      "trophic ecology": 100
+    }
+  },
+  {
+    "country": "Brazil",
+    "data": {
+      "conservation": 40.9501,
+      "distribution": 32.9132,
+      "human uses": 54.6736,
+      "human-related": 99.7624,
+      "population dynamics": 4.9711,
+      "reproduction": 14.8648,
+      "species": 24.0273,
+      "trophic ecology": 9.8347
+    }
+  },
+  {
+    "country": "Brunei Darsm",
+    "data": {
+      "conservation": 43.083,
+      "distribution": 73.7154,
+      "human uses": 52.7668,
+      "human-related": 99.8024,
+      "population dynamics": 19.3294,
+      "reproduction": 29.9108,
+      "species": 38.6136,
+      "trophic ecology": 25.4447
+    }
+  },
+  {
+    "country": "Bulgaria",
+    "data": {
+      "conservation": 47.2377,
+      "distribution": 82.684,
+      "human uses": 60.9524,
+      "human-related": 99.5671,
+      "population dynamics": 27.0492,
+      "reproduction": 60.346,
+      "species": 46.3869,
+      "trophic ecology": 45.7792
+    }
+  },
+  {
+    "country": "Burkina Faso",
+    "data": {
+      "conservation": 40,
+      "distribution": 55.9055,
+      "human uses": 68.0315,
+      "human-related": 100,
+      "population dynamics": 3.937,
+      "reproduction": 25.3327,
+      "species": 36.0388,
+      "trophic ecology": 18.8976
+    }
+  },
+  {
+    "country": "Burundi",
+    "data": {
+      "conservation": 40,
+      "distribution": 66.4093,
+      "human uses": 57.1429,
+      "human-related": 100,
+      "population dynamics": 2.7027,
+      "reproduction": 24.6742,
+      "species": 24.4134,
+      "trophic ecology": 20.5598
+    }
+  },
+  {
+    "country": "Cambodia",
+    "data": {
+      "conservation": 42.6165,
+      "distribution": 88.8889,
+      "human uses": 54.6002,
+      "human-related": 100,
+      "population dynamics": 17.6349,
+      "reproduction": 30.5243,
+      "species": 37.7985,
+      "trophic ecology": 24.7144
+    }
+  },
+  {
+    "country": "Cameroon",
+    "data": {
+      "conservation": 42.3461,
+      "distribution": 51.7148,
+      "human uses": 60.9567,
+      "human-related": 99.9549,
+      "population dynamics": 6.469,
+      "reproduction": 24.5262,
+      "species": 28.9572,
+      "trophic ecology": 17.0126
+    }
+  },
+  {
+    "country": "Canada",
+    "data": {
+      "conservation": 43.8418,
+      "distribution": 81.4783,
+      "human uses": 52.0174,
+      "human-related": 99.913,
+      "population dynamics": 19.1816,
+      "reproduction": 41.0973,
+      "species": 36.301,
+      "trophic ecology": 33.6739
+    }
+  },
+  {
+    "country": "Canary Is.",
+    "data": {
+      "conservation": 46.9512,
+      "distribution": 83.5689,
+      "human uses": 55.265,
+      "human-related": 99.9117,
+      "population dynamics": 22.1071,
+      "reproduction": 37.822,
+      "species": 37.6325,
+      "trophic ecology": 33.3481
+    }
+  },
+  {
+    "country": "Cape Verde",
+    "data": {
+      "conservation": 46.0338,
+      "distribution": 79.7753,
+      "human uses": 56.5449,
+      "human-related": 99.9298,
+      "population dynamics": 18.8366,
+      "reproduction": 35.5818,
+      "species": 36.9058,
+      "trophic ecology": 31.25
+    }
+  },
+  {
+    "country": "Cargados Carajos",
+    "data": {
+      "conservation": 41.2821,
+      "distribution": 69.2308,
+      "human uses": 47.5641,
+      "human-related": 99.359,
+      "population dynamics": 12.8205,
+      "reproduction": 29.7786,
+      "species": 36.9822,
+      "trophic ecology": 23.5577
+    }
+  },
+  {
+    "country": "Caroline I.",
+    "data": {
+      "conservation": 42.4,
+      "distribution": 90.8,
+      "human uses": 51.2,
+      "human-related": 100,
+      "population dynamics": 19.6,
+      "reproduction": 37.4606,
+      "species": 44.6769,
+      "trophic ecology": 35.1
+    }
+  },
+  {
+    "country": "Cayman Is.",
+    "data": {
+      "conservation": 43.5,
+      "distribution": 74.1667,
+      "human uses": 53.375,
+      "human-related": 100,
+      "population dynamics": 27.3859,
+      "reproduction": 37.4992,
+      "species": 38.5096,
+      "trophic ecology": 43.4896
+    }
+  },
+  {
+    "country": "Central Afr. Rp",
+    "data": {
+      "conservation": 40,
+      "distribution": 38.0282,
+      "human uses": 60.7512,
+      "human-related": 100,
+      "population dynamics": 3.7559,
+      "reproduction": 16.9806,
+      "species": 26.2189,
+      "trophic ecology": 10.6808
+    }
+  },
+  {
+    "country": "Chad",
+    "data": {
+      "conservation": 40,
+      "distribution": 57.3333,
+      "human uses": 63.8667,
+      "human-related": 100,
+      "population dynamics": 5.3333,
+      "reproduction": 24.6251,
+      "species": 34.8718,
+      "trophic ecology": 19.3333
+    }
+  },
+  {
+    "country": "Chagos Is.",
+    "data": {
+      "conservation": 42.3729,
+      "distribution": 84.2243,
+      "human uses": 51.734,
+      "human-related": 99.9348,
+      "population dynamics": 15.3446,
+      "reproduction": 34.6654,
+      "species": 41.8514,
+      "trophic ecology": 30.1499
+    }
+  },
+  {
+    "country": "Channel Is.",
+    "data": {
+      "conservation": 54.1946,
+      "distribution": 95.0495,
+      "human uses": 64.5545,
+      "human-related": 100,
+      "population dynamics": 50.4425,
+      "reproduction": 59.2288,
+      "species": 49.9619,
+      "trophic ecology": 51.2376
+    }
+  },
+  {
+    "country": "Chatham Is.",
+    "data": {
+      "conservation": 52,
+      "distribution": 60,
+      "human uses": 52,
+      "human-related": 100,
+      "population dynamics": 60,
+      "reproduction": 34.5455,
+      "species": 35.3846,
+      "trophic ecology": 20
+    }
+  },
+  {
+    "country": "Chile",
+    "data": {
+      "conservation": 43.4665,
+      "distribution": 55.3506,
+      "human uses": 48.6101,
+      "human-related": 99.631,
+      "population dynamics": 9.5471,
+      "reproduction": 28.4415,
+      "species": 27.9402,
+      "trophic ecology": 20.326
+    }
+  },
+  {
+    "country": "China",
+    "data": {
+      "conservation": 41.7472,
+      "distribution": 54.9439,
+      "human uses": 50.0913,
+      "human-related": 99.8043,
+      "population dynamics": 12.3928,
+      "reproduction": 23.2823,
+      "species": 30.7451,
+      "trophic ecology": 17.7929
+    }
+  },
+  {
+    "country": "Chinese Taipei",
+    "data": {
+      "conservation": 41.7526,
+      "distribution": 69.3098,
+      "human uses": 50.0225,
+      "human-related": 99.7592,
+      "population dynamics": 15.9615,
+      "reproduction": 30.2889,
+      "species": 35.192,
+      "trophic ecology": 22.0626
+    }
+  },
+  {
+    "country": "Christmas I.",
+    "data": {
+      "conservation": 42,
+      "distribution": 88.125,
+      "human uses": 51.75,
+      "human-related": 100,
+      "population dynamics": 18.8768,
+      "reproduction": 36.9331,
+      "species": 42.7043,
+      "trophic ecology": 32.2656
+    }
+  },
+  {
+    "country": "Clipperton I.",
+    "data": {
+      "conservation": 44.5833,
+      "distribution": 70.8333,
+      "human uses": 52.9167,
+      "human-related": 100,
+      "population dynamics": 12.5,
+      "reproduction": 40.7197,
+      "species": 37.8205,
+      "trophic ecology": 27.6042
+    }
+  },
+  {
+    "country": "Cocos I. (C.R.)",
+    "data": {
+      "conservation": 42.9032,
+      "distribution": 68.5484,
+      "human uses": 49.5161,
+      "human-related": 100,
+      "population dynamics": 5.6452,
+      "reproduction": 32.7937,
+      "species": 32.6923,
+      "trophic ecology": 22.7823
+    }
+  },
+  {
+    "country": "Cocos Is. (Keel)",
+    "data": {
+      "conservation": 42.1236,
+      "distribution": 92.0849,
+      "human uses": 51.3514,
+      "human-related": 100,
+      "population dynamics": 19.2678,
+      "reproduction": 37.5548,
+      "species": 44.6688,
+      "trophic ecology": 35.0386
+    }
+  },
+  {
+    "country": "Colombia",
+    "data": {
+      "conservation": 41.6101,
+      "distribution": 48.6349,
+      "human uses": 49.8288,
+      "human-related": 99.9306,
+      "population dynamics": 7.0208,
+      "reproduction": 23.451,
+      "species": 29.2422,
+      "trophic ecology": 19.2503
+    }
+  },
+  {
+    "country": "Comoros",
+    "data": {
+      "conservation": 43.3975,
+      "distribution": 83.1874,
+      "human uses": 55.2715,
+      "human-related": 99.387,
+      "population dynamics": 15.8813,
+      "reproduction": 38.5705,
+      "species": 42.9207,
+      "trophic ecology": 30.7356
+    }
+  },
+  {
+    "country": "Congo",
+    "data": {
+      "conservation": 42.7759,
+      "distribution": 50.4515,
+      "human uses": 59.5485,
+      "human-related": 99.9436,
+      "population dynamics": 7.191,
+      "reproduction": 24.1478,
+      "species": 28.9547,
+      "trophic ecology": 17.0147
+    }
+  },
+  {
+    "country": "Congo Dem Rp",
+    "data": {
+      "conservation": 41.3943,
+      "distribution": 44.6608,
+      "human uses": 58.9196,
+      "human-related": 99.9686,
+      "population dynamics": 4.6337,
+      "reproduction": 19.1336,
+      "species": 24.4975,
+      "trophic ecology": 13.4108
+    }
+  },
+  {
+    "country": "Cook Is.",
+    "data": {
+      "conservation": 42.8028,
+      "distribution": 89.6194,
+      "human uses": 55.4671,
+      "human-related": 99.9135,
+      "population dynamics": 21.2069,
+      "reproduction": 38.7788,
+      "species": 45.0492,
+      "trophic ecology": 36.7215
+    }
+  },
+  {
+    "country": "Costa Rica",
+    "data": {
+      "conservation": 42.4692,
+      "distribution": 67.3043,
+      "human uses": 53.2174,
+      "human-related": 99.9565,
+      "population dynamics": 11.3715,
+      "reproduction": 31.3293,
+      "species": 33.6923,
+      "trophic ecology": 27.4348
+    }
+  },
+  {
+    "country": "Croatia",
+    "data": {
+      "conservation": 48.5509,
+      "distribution": 85.9122,
+      "human uses": 60.739,
+      "human-related": 99.6536,
+      "population dynamics": 28.9183,
+      "reproduction": 54.2455,
+      "species": 43.5246,
+      "trophic ecology": 44.3418
+    }
+  },
+  {
+    "country": "Crozet Is.",
+    "data": {
+      "conservation": 44.6458,
+      "distribution": 87.2093,
+      "human uses": 49.3023,
+      "human-related": 96.5116,
+      "population dynamics": 17.4419,
+      "reproduction": 16.5173,
+      "species": 27.4597,
+      "trophic ecology": 17.1512
+    }
+  },
+  {
+    "country": "Cuba",
+    "data": {
+      "conservation": 42.7699,
+      "distribution": 66.3511,
+      "human uses": 51.2909,
+      "human-related": 99.8709,
+      "population dynamics": 14.9829,
+      "reproduction": 33.3332,
+      "species": 34.1851,
+      "trophic ecology": 31.0456
+    }
+  },
+  {
+    "country": "Curaçao I.",
+    "data": {
+      "conservation": 43.3107,
+      "distribution": 77.0701,
+      "human uses": 55.4459,
+      "human-related": 99.9204,
+      "population dynamics": 22.8571,
+      "reproduction": 37.0459,
+      "species": 38.8902,
+      "trophic ecology": 42.914
+    }
+  },
+  {
+    "country": "Cyprus",
+    "data": {
+      "conservation": 50.9477,
+      "distribution": 96.6777,
+      "human uses": 63.588,
+      "human-related": 99.6678,
+      "population dynamics": 36.9085,
+      "reproduction": 56.8411,
+      "species": 50.7283,
+      "trophic ecology": 51.6611
+    }
+  },
+  {
+    "country": "Czechia",
+    "data": {
+      "conservation": 45.1842,
+      "distribution": 91.1765,
+      "human uses": 67.0588,
+      "human-related": 99.5098,
+      "population dynamics": 3.8095,
+      "reproduction": 68.1063,
+      "species": 52.1116,
+      "trophic ecology": 47.549
+    }
+  },
+  {
+    "country": "Denmark",
+    "data": {
+      "conservation": 51.7937,
+      "distribution": 99.5781,
+      "human uses": 66.4979,
+      "human-related": 99.5781,
+      "population dynamics": 47.9705,
+      "reproduction": 65.5429,
+      "species": 54.4953,
+      "trophic ecology": 57.5949
+    }
+  },
+  {
+    "country": "Desventuradas Is",
+    "data": {
+      "conservation": 41.5385,
+      "distribution": 28.8462,
+      "human uses": 45.7692,
+      "human-related": 100,
+      "population dynamics": 9.6154,
+      "reproduction": 21.2099,
+      "species": 23.0769,
+      "trophic ecology": 9.1346
+    }
+  },
+  {
+    "country": "Djibouti",
+    "data": {
+      "conservation": 47.4699,
+      "distribution": 89.6386,
+      "human uses": 63.1325,
+      "human-related": 99.8795,
+      "population dynamics": 27.9904,
+      "reproduction": 44.2476,
+      "species": 49.1752,
+      "trophic ecology": 41.506
+    }
+  },
+  {
+    "country": "Dominica",
+    "data": {
+      "conservation": 43.6292,
+      "distribution": 78.3037,
+      "human uses": 55.7002,
+      "human-related": 100,
+      "population dynamics": 26.9155,
+      "reproduction": 39.4516,
+      "species": 39.4477,
+      "trophic ecology": 45.6607
+    }
+  },
+  {
+    "country": "Dominican Rp",
+    "data": {
+      "conservation": 43.6431,
+      "distribution": 79.9257,
+      "human uses": 56.7286,
+      "human-related": 100,
+      "population dynamics": 25.9259,
+      "reproduction": 40.7542,
+      "species": 40.6062,
+      "trophic ecology": 46.5149
+    }
+  },
+  {
+    "country": "Easter I.",
+    "data": {
+      "conservation": 43.5714,
+      "distribution": 65.3061,
+      "human uses": 51.5306,
+      "human-related": 100,
+      "population dynamics": 21.3198,
+      "reproduction": 32.1088,
+      "species": 37.7943,
+      "trophic ecology": 28.3163
+    }
+  },
+  {
+    "country": "Ecuador",
+    "data": {
+      "conservation": 42.1663,
+      "distribution": 51.9231,
+      "human uses": 50.4021,
+      "human-related": 99.8689,
+      "population dynamics": 4.8738,
+      "reproduction": 24.1991,
+      "species": 29.3437,
+      "trophic ecology": 18.3566
+    }
+  },
+  {
+    "country": "Egypt",
+    "data": {
+      "conservation": 45.5772,
+      "distribution": 81.571,
+      "human uses": 57.2407,
+      "human-related": 99.8489,
+      "population dynamics": 24.9752,
+      "reproduction": 41.8773,
+      "species": 43.1559,
+      "trophic ecology": 35.6999
+    }
+  },
+  {
+    "country": "El Salvador",
+    "data": {
+      "conservation": 42.5168,
+      "distribution": 65.7718,
+      "human uses": 52.6846,
+      "human-related": 99.7483,
+      "population dynamics": 7.5377,
+      "reproduction": 32.4284,
+      "species": 33.9055,
+      "trophic ecology": 23.4899
+    }
+  },
+  {
+    "country": "Elephant I.",
+    "data": {
+      "conservation": 48,
+      "distribution": 100,
+      "human uses": 62,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 65.4545,
+      "species": 46.9231,
+      "trophic ecology": 62.5
+    }
+  },
+  {
+    "country": "Eq Guinea",
+    "data": {
+      "conservation": 43.8406,
+      "distribution": 64.837,
+      "human uses": 58.2161,
+      "human-related": 100,
+      "population dynamics": 10.9215,
+      "reproduction": 29.5591,
+      "species": 32.7748,
+      "trophic ecology": 23.542
+    }
+  },
+  {
+    "country": "Eritrea",
+    "data": {
+      "conservation": 46.4163,
+      "distribution": 81.4324,
+      "human uses": 59.7878,
+      "human-related": 99.8674,
+      "population dynamics": 21.1082,
+      "reproduction": 41.1846,
+      "species": 44.093,
+      "trophic ecology": 35.0796
+    }
+  },
+  {
+    "country": "Estonia",
+    "data": {
+      "conservation": 48.1765,
+      "distribution": 97,
+      "human uses": 67.8,
+      "human-related": 99,
+      "population dynamics": 33.3333,
+      "reproduction": 69.9555,
+      "species": 58.0769,
+      "trophic ecology": 57
+    }
+  },
+  {
+    "country": "Eswatini",
+    "data": {
+      "conservation": 41.0345,
+      "distribution": 87.931,
+      "human uses": 64.1379,
+      "human-related": 100,
+      "population dynamics": 16.9492,
+      "reproduction": 34.1937,
+      "species": 38.7268,
+      "trophic ecology": 34.0517
+    }
+  },
+  {
+    "country": "Ethiopia",
+    "data": {
+      "conservation": 40.226,
+      "distribution": 60.452,
+      "human uses": 56.0452,
+      "human-related": 100,
+      "population dynamics": 5.0847,
+      "reproduction": 23.5548,
+      "species": 31.9426,
+      "trophic ecology": 21.4689
+    }
+  },
+  {
+    "country": "Europa I.",
+    "data": {
+      "conservation": 40,
+      "distribution": 100,
+      "human uses": 80,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 36.3636,
+      "species": 46.1538,
+      "trophic ecology": 75
+    }
+  },
+  {
+    "country": "Faeroe Is.",
+    "data": {
+      "conservation": 52.0548,
+      "distribution": 94.7761,
+      "human uses": 59.2537,
+      "human-related": 100,
+      "population dynamics": 50.9202,
+      "reproduction": 52.6192,
+      "species": 46.4409,
+      "trophic ecology": 52.0522
+    }
+  },
+  {
+    "country": "Falkland Is.",
+    "data": {
+      "conservation": 45.5,
+      "distribution": 70.4082,
+      "human uses": 52.0408,
+      "human-related": 98.9796,
+      "population dynamics": 17.1717,
+      "reproduction": 27.0118,
+      "species": 33.3595,
+      "trophic ecology": 25.5102
+    }
+  },
+  {
+    "country": "Fiji",
+    "data": {
+      "conservation": 42.4059,
+      "distribution": 76.9742,
+      "human uses": 50.2583,
+      "human-related": 99.9262,
+      "population dynamics": 13.4658,
+      "reproduction": 34.8629,
+      "species": 38.9441,
+      "trophic ecology": 26.2731
+    }
+  },
+  {
+    "country": "Finland",
+    "data": {
+      "conservation": 49.5663,
+      "distribution": 94.6429,
+      "human uses": 71.4286,
+      "human-related": 99.5536,
+      "population dynamics": 32.8125,
+      "reproduction": 69.7947,
+      "species": 58.3104,
+      "trophic ecology": 59.1518
+    }
+  },
+  {
+    "country": "France",
+    "data": {
+      "conservation": 46.7,
+      "distribution": 86.7059,
+      "human uses": 57.8588,
+      "human-related": 99.8824,
+      "population dynamics": 29.3258,
+      "reproduction": 47.2901,
+      "species": 41.8281,
+      "trophic ecology": 39.8235
+    }
+  },
+  {
+    "country": "French Guiana",
+    "data": {
+      "conservation": 42.489,
+      "distribution": 65.8824,
+      "human uses": 53.2549,
+      "human-related": 99.8529,
+      "population dynamics": 12.5,
+      "reproduction": 30.472,
+      "species": 34.4118,
+      "trophic ecology": 28.9216
+    }
+  },
+  {
+    "country": "French Polynesia",
+    "data": {
+      "conservation": 41.9706,
+      "distribution": 76.5199,
+      "human uses": 50.0839,
+      "human-related": 99.9476,
+      "population dynamics": 15.0628,
+      "reproduction": 33.2761,
+      "species": 39.8726,
+      "trophic ecology": 27.9612
+    }
+  },
+  {
+    "country": "Gabon",
+    "data": {
+      "conservation": 43.3804,
+      "distribution": 56.7146,
+      "human uses": 59.7602,
+      "human-related": 99.94,
+      "population dynamics": 8.5816,
+      "reproduction": 25.5712,
+      "species": 30.4741,
+      "trophic ecology": 19.3945
+    }
+  },
+  {
+    "country": "Galapagos Is.",
+    "data": {
+      "conservation": 43.1746,
+      "distribution": 64.0212,
+      "human uses": 54.6384,
+      "human-related": 99.7354,
+      "population dynamics": 10.1933,
+      "reproduction": 31.5465,
+      "species": 33.0213,
+      "trophic ecology": 24.6914
+    }
+  },
+  {
+    "country": "Gambia",
+    "data": {
+      "conservation": 45.2004,
+      "distribution": 78.3784,
+      "human uses": 59.5946,
+      "human-related": 99.9155,
+      "population dynamics": 12.4792,
+      "reproduction": 34.4727,
+      "species": 37.1881,
+      "trophic ecology": 29.223
+    }
+  },
+  {
+    "country": "Georgia",
+    "data": {
+      "conservation": 48.8304,
+      "distribution": 80.8511,
+      "human uses": 59.4326,
+      "human-related": 99.6454,
+      "population dynamics": 25.6579,
+      "reproduction": 57.4166,
+      "species": 47.736,
+      "trophic ecology": 45.3901
+    }
+  },
+  {
+    "country": "Germany",
+    "data": {
+      "conservation": 49.2207,
+      "distribution": 90.7473,
+      "human uses": 63.9858,
+      "human-related": 99.4662,
+      "population dynamics": 36.5385,
+      "reproduction": 62.7751,
+      "species": 49.2746,
+      "trophic ecology": 49.6441
+    }
+  },
+  {
+    "country": "Ghana",
+    "data": {
+      "conservation": 44.0096,
+      "distribution": 67.3212,
+      "human uses": 60.3366,
+      "human-related": 99.9299,
+      "population dynamics": 10.4312,
+      "reproduction": 30.8543,
+      "species": 35.2573,
+      "trophic ecology": 25.1052
+    }
+  },
+  {
+    "country": "Gibraltar",
+    "data": {
+      "conservation": 49.9529,
+      "distribution": 95.4955,
+      "human uses": 61.0811,
+      "human-related": 100,
+      "population dynamics": 39.3768,
+      "reproduction": 52.6319,
+      "species": 45.2529,
+      "trophic ecology": 45.7958
+    }
+  },
+  {
+    "country": "Glorieuses Is.",
+    "data": {
+      "conservation": 50,
+      "distribution": 50,
+      "human uses": 80,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 40.9091,
+      "species": 42.3077,
+      "trophic ecology": 37.5
+    }
+  },
+  {
+    "country": "Greece",
+    "data": {
+      "conservation": 46.7297,
+      "distribution": 84.495,
+      "human uses": 57.6671,
+      "human-related": 99.7866,
+      "population dynamics": 26.685,
+      "reproduction": 47.8083,
+      "species": 41.6457,
+      "trophic ecology": 38.229
+    }
+  },
+  {
+    "country": "Greenland",
+    "data": {
+      "conservation": 44.8653,
+      "distribution": 83.5206,
+      "human uses": 50.9363,
+      "human-related": 100,
+      "population dynamics": 41.5225,
+      "reproduction": 33.2236,
+      "species": 36.5024,
+      "trophic ecology": 33.7079
+    }
+  },
+  {
+    "country": "Grenada",
+    "data": {
+      "conservation": 43.8723,
+      "distribution": 82.4351,
+      "human uses": 56.5669,
+      "human-related": 99.9002,
+      "population dynamics": 27.0378,
+      "reproduction": 40.4444,
+      "species": 40.9489,
+      "trophic ecology": 48.3533
+    }
+  },
+  {
+    "country": "Guadeloupe",
+    "data": {
+      "conservation": 43.8073,
+      "distribution": 78.4404,
+      "human uses": 55.0459,
+      "human-related": 100,
+      "population dynamics": 27.6256,
+      "reproduction": 39.3525,
+      "species": 39.5554,
+      "trophic ecology": 46.445
+    }
+  },
+  {
+    "country": "Guam",
+    "data": {
+      "conservation": 42.0329,
+      "distribution": 87.8025,
+      "human uses": 50.8809,
+      "human-related": 99.9516,
+      "population dynamics": 15.6673,
+      "reproduction": 35.8654,
+      "species": 41.9689,
+      "trophic ecology": 30.7357
+    }
+  },
+  {
+    "country": "Guatemala",
+    "data": {
+      "conservation": 42.776,
+      "distribution": 68.3297,
+      "human uses": 54.4902,
+      "human-related": 99.8915,
+      "population dynamics": 12.8788,
+      "reproduction": 35.2097,
+      "species": 35.9336,
+      "trophic ecology": 30.1518
+    }
+  },
+  {
+    "country": "Guinea",
+    "data": {
+      "conservation": 43.9273,
+      "distribution": 67.1856,
+      "human uses": 59.8323,
+      "human-related": 99.8204,
+      "population dynamics": 10.8205,
+      "reproduction": 29.4277,
+      "species": 33.2566,
+      "trophic ecology": 23.7425
+    }
+  },
+  {
+    "country": "Guinea-Bissau",
+    "data": {
+      "conservation": 45.0555,
+      "distribution": 76.0057,
+      "human uses": 58.9368,
+      "human-related": 99.9282,
+      "population dynamics": 13.3713,
+      "reproduction": 32.7474,
+      "species": 36.6269,
+      "trophic ecology": 28.2328
+    }
+  },
+  {
+    "country": "Guyana",
+    "data": {
+      "conservation": 42.4583,
+      "distribution": 59.4621,
+      "human uses": 52.6993,
+      "human-related": 99.8559,
+      "population dynamics": 11.1962,
+      "reproduction": 28.8315,
+      "species": 34.0723,
+      "trophic ecology": 27.3775
+    }
+  },
+  {
+    "country": "Haiti",
+    "data": {
+      "conservation": 43.5206,
+      "distribution": 77.5281,
+      "human uses": 55.5431,
+      "human-related": 100,
+      "population dynamics": 25.7463,
+      "reproduction": 38.5506,
+      "species": 39.3547,
+      "trophic ecology": 44.9906
+    }
+  },
+  {
+    "country": "Hawaii",
+    "data": {
+      "conservation": 41.7963,
+      "distribution": 66.3697,
+      "human uses": 49.0126,
+      "human-related": 99.8515,
+      "population dynamics": 9.1852,
+      "reproduction": 27.9758,
+      "species": 32.8194,
+      "trophic ecology": 22.049
+    }
+  },
+  {
+    "country": "Heard McDon Is.",
+    "data": {
+      "conservation": 50.3448,
+      "distribution": 100,
+      "human uses": 51.7241,
+      "human-related": 100,
+      "population dynamics": 3.4483,
+      "reproduction": 33.0408,
+      "species": 37.4005,
+      "trophic ecology": 31.0345
+    }
+  },
+  {
+    "country": "Honduras",
+    "data": {
+      "conservation": 42.5138,
+      "distribution": 65.0476,
+      "human uses": 53.0095,
+      "human-related": 99.9048,
+      "population dynamics": 12.3574,
+      "reproduction": 33.6835,
+      "species": 34.4835,
+      "trophic ecology": 28.9762
+    }
+  },
+  {
+    "country": "Hong Kong",
+    "data": {
+      "conservation": 42.9706,
+      "distribution": 81.4138,
+      "human uses": 54.6465,
+      "human-related": 99.9206,
+      "population dynamics": 33.1746,
+      "reproduction": 36.0505,
+      "species": 41.5042,
+      "trophic ecology": 29.7855
+    }
+  },
+  {
+    "country": "Hungary",
+    "data": {
+      "conservation": 44.5412,
+      "distribution": 92.5532,
+      "human uses": 66.1702,
+      "human-related": 98.9362,
+      "population dynamics": 3.1579,
+      "reproduction": 65.7787,
+      "species": 48.8543,
+      "trophic ecology": 44.9468
+    }
+  },
+  {
+    "country": "Iceland",
+    "data": {
+      "conservation": 47.3012,
+      "distribution": 88.141,
+      "human uses": 54.8077,
+      "human-related": 99.8397,
+      "population dynamics": 41.2104,
+      "reproduction": 41.404,
+      "species": 40.6558,
+      "trophic ecology": 38.2212
+    }
+  },
+  {
+    "country": "India",
+    "data": {
+      "conservation": 41.8495,
+      "distribution": 65.5918,
+      "human uses": 52.2537,
+      "human-related": 99.7697,
+      "population dynamics": 13.1989,
+      "reproduction": 24.9568,
+      "species": 32.0967,
+      "trophic ecology": 18.843
+    }
+  },
+  {
+    "country": "Indonesia",
+    "data": {
+      "conservation": 40.9482,
+      "distribution": 54.8523,
+      "human uses": 45.7344,
+      "human-related": 99.6283,
+      "population dynamics": 9.1329,
+      "reproduction": 23.2016,
+      "species": 29.2608,
+      "trophic ecology": 14.3058
+    }
+  },
+  {
+    "country": "Iran",
+    "data": {
+      "conservation": 45.0117,
+      "distribution": 71.0638,
+      "human uses": 55.8865,
+      "human-related": 99.5745,
+      "population dynamics": 19.209,
+      "reproduction": 36.4452,
+      "species": 41.5494,
+      "trophic ecology": 28.4752
+    }
+  },
+  {
+    "country": "Iraq",
+    "data": {
+      "conservation": 46.3664,
+      "distribution": 81.3814,
+      "human uses": 59.2192,
+      "human-related": 99.6997,
+      "population dynamics": 33.033,
+      "reproduction": 40.2611,
+      "species": 46.7775,
+      "trophic ecology": 33.4835
+    }
+  },
+  {
+    "country": "Ireland",
+    "data": {
+      "conservation": 48.7035,
+      "distribution": 87.8345,
+      "human uses": 58.5888,
+      "human-related": 99.8783,
+      "population dynamics": 39.7321,
+      "reproduction": 50.0636,
+      "species": 43.9266,
+      "trophic ecology": 43.2482
+    }
+  },
+  {
+    "country": "Isle of Man",
+    "data": {
+      "conservation": 53.2673,
+      "distribution": 96.5318,
+      "human uses": 62.5434,
+      "human-related": 100,
+      "population dynamics": 55.9406,
+      "reproduction": 62.6295,
+      "species": 51.8897,
+      "trophic ecology": 55.2023
+    }
+  },
+  {
+    "country": "Israel",
+    "data": {
+      "conservation": 46.7521,
+      "distribution": 82.9071,
+      "human uses": 57.1467,
+      "human-related": 99.7981,
+      "population dynamics": 26.3158,
+      "reproduction": 42.4014,
+      "species": 42.9237,
+      "trophic ecology": 36.3392
+    }
+  },
+  {
+    "country": "Italy",
+    "data": {
+      "conservation": 47.5304,
+      "distribution": 89.5928,
+      "human uses": 59.9698,
+      "human-related": 99.8492,
+      "population dynamics": 27.6163,
+      "reproduction": 51.2507,
+      "species": 43.6942,
+      "trophic ecology": 42.6471
+    }
+  },
+  {
+    "country": "Ivory Coast",
+    "data": {
+      "conservation": 44.2797,
+      "distribution": 68.6782,
+      "human uses": 61.0057,
+      "human-related": 99.9282,
+      "population dynamics": 10.271,
+      "reproduction": 31.7712,
+      "species": 35.1459,
+      "trophic ecology": 25.2874
+    }
+  },
+  {
+    "country": "Jamaica",
+    "data": {
+      "conservation": 43.3427,
+      "distribution": 74.4582,
+      "human uses": 54.3034,
+      "human-related": 99.8452,
+      "population dynamics": 22.0339,
+      "reproduction": 38.4858,
+      "species": 38.4854,
+      "trophic ecology": 41.37
+    }
+  },
+  {
+    "country": "Jan Mayen I.",
+    "data": {
+      "conservation": 60,
+      "distribution": 100,
+      "human uses": 40,
+      "human-related": 100,
+      "population dynamics": 100,
+      "reproduction": 9.0909,
+      "species": 46.1538,
+      "trophic ecology": 50
+    }
+  },
+  {
+    "country": "Japan",
+    "data": {
+      "conservation": 41.5059,
+      "distribution": 60.29,
+      "human uses": 47.5491,
+      "human-related": 99.696,
+      "population dynamics": 12.223,
+      "reproduction": 26.7377,
+      "species": 31.5572,
+      "trophic ecology": 19.2177
+    }
+  },
+  {
+    "country": "Johnston I.",
+    "data": {
+      "conservation": 42.7322,
+      "distribution": 77.5956,
+      "human uses": 51.1475,
+      "human-related": 100,
+      "population dynamics": 12.5,
+      "reproduction": 34.2309,
+      "species": 42.665,
+      "trophic ecology": 34.2896
+    }
+  },
+  {
+    "country": "Jordan",
+    "data": {
+      "conservation": 44.6115,
+      "distribution": 85.5219,
+      "human uses": 55.7912,
+      "human-related": 100,
+      "population dynamics": 23.3221,
+      "reproduction": 40.7349,
+      "species": 44.8329,
+      "trophic ecology": 35.4798
+    }
+  },
+  {
+    "country": "Juan Fernández",
+    "data": {
+      "conservation": 42.3129,
+      "distribution": 59.8639,
+      "human uses": 48.9796,
+      "human-related": 99.6599,
+      "population dynamics": 15.6463,
+      "reproduction": 27.4301,
+      "species": 27.6295,
+      "trophic ecology": 18.8776
+    }
+  },
+  {
+    "country": "Juan de Nova I.",
+    "data": {
+      "conservation": 50,
+      "distribution": 100,
+      "human uses": 80,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 36.3636,
+      "species": 53.8462,
+      "trophic ecology": 75
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "data": {
+      "conservation": 44.3182,
+      "distribution": 71.0744,
+      "human uses": 56.3636,
+      "human-related": 100,
+      "population dynamics": 2.4793,
+      "reproduction": 52.2047,
+      "species": 39.6694,
+      "trophic ecology": 36.3636
+    }
+  },
+  {
+    "country": "Kenya",
+    "data": {
+      "conservation": 42.8819,
+      "distribution": 77.2072,
+      "human uses": 56.6306,
+      "human-related": 99.8649,
+      "population dynamics": 16.0682,
+      "reproduction": 34.9527,
+      "species": 37.4636,
+      "trophic ecology": 28.491
+    }
+  },
+  {
+    "country": "Kerguelen Is.",
+    "data": {
+      "conservation": 45.5586,
+      "distribution": 94.0397,
+      "human uses": 52.053,
+      "human-related": 100,
+      "population dynamics": 13.8158,
+      "reproduction": 21.1007,
+      "species": 30.7183,
+      "trophic ecology": 20.5298
+    }
+  },
+  {
+    "country": "Kermadec Is.",
+    "data": {
+      "conservation": 45.6069,
+      "distribution": 74.7634,
+      "human uses": 56.9085,
+      "human-related": 98.8959,
+      "population dynamics": 40.3727,
+      "reproduction": 33.5286,
+      "species": 38.9469,
+      "trophic ecology": 33.9117
+    }
+  },
+  {
+    "country": "Kiribati",
+    "data": {
+      "conservation": 43.0258,
+      "distribution": 86.1624,
+      "human uses": 52.583,
+      "human-related": 99.7232,
+      "population dynamics": 15.625,
+      "reproduction": 39.009,
+      "species": 43.4999,
+      "trophic ecology": 34.3635
+    }
+  },
+  {
+    "country": "Korea (North)",
+    "data": {
+      "conservation": 44.5474,
+      "distribution": 71.4744,
+      "human uses": 53.5256,
+      "human-related": 100,
+      "population dynamics": 17.4051,
+      "reproduction": 38.4342,
+      "species": 38.3136,
+      "trophic ecology": 30.1282
+    }
+  },
+  {
+    "country": "Korea (South)",
+    "data": {
+      "conservation": 43.0672,
+      "distribution": 67.3931,
+      "human uses": 51.2322,
+      "human-related": 99.9581,
+      "population dynamics": 19.8664,
+      "reproduction": 32.6892,
+      "species": 35.9985,
+      "trophic ecology": 26.1316
+    }
+  },
+  {
+    "country": "Kuril Is.",
+    "data": {
+      "conservation": 41.9095,
+      "distribution": 43.7186,
+      "human uses": 47.6382,
+      "human-related": 100,
+      "population dynamics": 8,
+      "reproduction": 27.6786,
+      "species": 28.5659,
+      "trophic ecology": 20.7286
+    }
+  },
+  {
+    "country": "Kuwait",
+    "data": {
+      "conservation": 45.4444,
+      "distribution": 80,
+      "human uses": 56,
+      "human-related": 99.8148,
+      "population dynamics": 31.8519,
+      "reproduction": 40.4333,
+      "species": 44.0456,
+      "trophic ecology": 31.3889
+    }
+  },
+  {
+    "country": "Kyrgyzstan",
+    "data": {
+      "conservation": 41.2903,
+      "distribution": 54.8387,
+      "human uses": 56.129,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 40.2584,
+      "species": 34.9876,
+      "trophic ecology": 25.8065
+    }
+  },
+  {
+    "country": "La Reunion Is.",
+    "data": {
+      "conservation": 43.0141,
+      "distribution": 81.9095,
+      "human uses": 54.6131,
+      "human-related": 99.799,
+      "population dynamics": 18.018,
+      "reproduction": 36.0355,
+      "species": 41.809,
+      "trophic ecology": 31.7588
+    }
+  },
+  {
+    "country": "Laos",
+    "data": {
+      "conservation": 40.1998,
+      "distribution": 58.5,
+      "human uses": 46.6333,
+      "human-related": 99.8333,
+      "population dynamics": 0.3333,
+      "reproduction": 14.8272,
+      "species": 25.8333,
+      "trophic ecology": 9.5833
+    }
+  },
+  {
+    "country": "Latvia",
+    "data": {
+      "conservation": 49.9869,
+      "distribution": 97.479,
+      "human uses": 68.4034,
+      "human-related": 99.1597,
+      "population dynamics": 32.1168,
+      "reproduction": 69.8347,
+      "species": 58.6942,
+      "trophic ecology": 57.563
+    }
+  },
+  {
+    "country": "Lebanon",
+    "data": {
+      "conservation": 50.4571,
+      "distribution": 93.5294,
+      "human uses": 61.2941,
+      "human-related": 99.8529,
+      "population dynamics": 38.9356,
+      "reproduction": 53.4101,
+      "species": 47.5339,
+      "trophic ecology": 46.7647
+    }
+  },
+  {
+    "country": "Lesotho",
+    "data": {
+      "conservation": 43.3333,
+      "distribution": 100,
+      "human uses": 76.6667,
+      "human-related": 100,
+      "population dynamics": 8.3333,
+      "reproduction": 55.1299,
+      "species": 53.2051,
+      "trophic ecology": 56.25
+    }
+  },
+  {
+    "country": "Liberia",
+    "data": {
+      "conservation": 44.17,
+      "distribution": 67.0382,
+      "human uses": 59.0764,
+      "human-related": 99.9204,
+      "population dynamics": 9.9684,
+      "reproduction": 30.0635,
+      "species": 33.415,
+      "trophic ecology": 23.6863
+    }
+  },
+  {
+    "country": "Libya",
+    "data": {
+      "conservation": 51.952,
+      "distribution": 96.5398,
+      "human uses": 63.8754,
+      "human-related": 99.827,
+      "population dynamics": 40.1316,
+      "reproduction": 55.5171,
+      "species": 48.8688,
+      "trophic ecology": 50.519
+    }
+  },
+  {
+    "country": "Liechtenstein",
+    "data": {
+      "conservation": 41.4286,
+      "distribution": 100,
+      "human uses": 72.8571,
+      "human-related": 96.4286,
+      "population dynamics": 0,
+      "reproduction": 78.8041,
+      "species": 63.7363,
+      "trophic ecology": 55.3571
+    }
+  },
+  {
+    "country": "Lithuania",
+    "data": {
+      "conservation": 49.5159,
+      "distribution": 99.0196,
+      "human uses": 69.0196,
+      "human-related": 99.0196,
+      "population dynamics": 33.6134,
+      "reproduction": 70.0931,
+      "species": 58.371,
+      "trophic ecology": 57.8431
+    }
+  },
+  {
+    "country": "Lord Howe I.",
+    "data": {
+      "conservation": 41.8891,
+      "distribution": 80.9035,
+      "human uses": 51.0472,
+      "human-related": 100,
+      "population dynamics": 35.1129,
+      "reproduction": 35.2826,
+      "species": 41.9365,
+      "trophic ecology": 34.7023
+    }
+  },
+  {
+    "country": "Luxembourg",
+    "data": {
+      "conservation": 41.4286,
+      "distribution": 92.8571,
+      "human uses": 68.5714,
+      "human-related": 96.4286,
+      "population dynamics": 0,
+      "reproduction": 82.0346,
+      "species": 64.8352,
+      "trophic ecology": 55.3571
+    }
+  },
+  {
+    "country": "Macau",
+    "data": {
+      "conservation": 47.6,
+      "distribution": 94,
+      "human uses": 66.4,
+      "human-related": 100,
+      "population dynamics": 29.1391,
+      "reproduction": 48.8235,
+      "species": 48.5128,
+      "trophic ecology": 48.8333
+    }
+  },
+  {
+    "country": "Macquarie Is.",
+    "data": {
+      "conservation": 43.75,
+      "distribution": 75,
+      "human uses": 51.25,
+      "human-related": 100,
+      "population dynamics": 6.25,
+      "reproduction": 18.516,
+      "species": 25.4808,
+      "trophic ecology": 17.1875
+    }
+  },
+  {
+    "country": "Madagascar",
+    "data": {
+      "conservation": 43.0258,
+      "distribution": 73.8991,
+      "human uses": 55.6445,
+      "human-related": 99.6797,
+      "population dynamics": 16.4405,
+      "reproduction": 33.4923,
+      "species": 38.1043,
+      "trophic ecology": 27.3419
+    }
+  },
+  {
+    "country": "Madeira Is.",
+    "data": {
+      "conservation": 45.9176,
+      "distribution": 83.3611,
+      "human uses": 55.4409,
+      "human-related": 100,
+      "population dynamics": 25.6911,
+      "reproduction": 37.4493,
+      "species": 37.3608,
+      "trophic ecology": 32.5707
+    }
+  },
+  {
+    "country": "Malawi",
+    "data": {
+      "conservation": 40.1655,
+      "distribution": 64.8033,
+      "human uses": 51.6356,
+      "human-related": 99.8965,
+      "population dynamics": 2.8926,
+      "reproduction": 15.6201,
+      "species": 20.911,
+      "trophic ecology": 17.1843
+    }
+  },
+  {
+    "country": "Malaysia",
+    "data": {
+      "conservation": 42.0887,
+      "distribution": 69.6925,
+      "human uses": 50.6491,
+      "human-related": 99.9512,
+      "population dynamics": 15.9922,
+      "reproduction": 28.4608,
+      "species": 35.0002,
+      "trophic ecology": 21.9497
+    }
+  },
+  {
+    "country": "Maldives",
+    "data": {
+      "conservation": 42.4159,
+      "distribution": 81.3632,
+      "human uses": 51.855,
+      "human-related": 99.9137,
+      "population dynamics": 15.4045,
+      "reproduction": 34.0798,
+      "species": 40.6119,
+      "trophic ecology": 28.4513
+    }
+  },
+  {
+    "country": "Mali",
+    "data": {
+      "conservation": 40,
+      "distribution": 53.0201,
+      "human uses": 67.2483,
+      "human-related": 100,
+      "population dynamics": 4.0268,
+      "reproduction": 24.8452,
+      "species": 34.4863,
+      "trophic ecology": 17.953
+    }
+  },
+  {
+    "country": "Malta",
+    "data": {
+      "conservation": 50.4074,
+      "distribution": 96.5602,
+      "human uses": 62.8993,
+      "human-related": 99.8771,
+      "population dynamics": 38.5151,
+      "reproduction": 56.3145,
+      "species": 47.8926,
+      "trophic ecology": 49.2015
+    }
+  },
+  {
+    "country": "Marquesas Is.",
+    "data": {
+      "conservation": 42.2796,
+      "distribution": 75.2688,
+      "human uses": 52.7312,
+      "human-related": 99.8925,
+      "population dynamics": 16.9528,
+      "reproduction": 33.4691,
+      "species": 40.0662,
+      "trophic ecology": 30
+    }
+  },
+  {
+    "country": "Marshall Is.",
+    "data": {
+      "conservation": 41.8349,
+      "distribution": 85.525,
+      "human uses": 49.0112,
+      "human-related": 99.7961,
+      "population dynamics": 14.3438,
+      "reproduction": 34.2236,
+      "species": 41.1433,
+      "trophic ecology": 29.893
+    }
+  },
+  {
+    "country": "Martinique",
+    "data": {
+      "conservation": 43.6404,
+      "distribution": 79.386,
+      "human uses": 54.7368,
+      "human-related": 100,
+      "population dynamics": 27.9476,
+      "reproduction": 39.6584,
+      "species": 39.693,
+      "trophic ecology": 47.2039
+    }
+  },
+  {
+    "country": "Mauritania",
+    "data": {
+      "conservation": 46.4486,
+      "distribution": 85.5601,
+      "human uses": 58.1107,
+      "human-related": 99.9325,
+      "population dynamics": 20.4756,
+      "reproduction": 38.1575,
+      "species": 38.9391,
+      "trophic ecology": 33.3333
+    }
+  },
+  {
+    "country": "Mauritius",
+    "data": {
+      "conservation": 42.9096,
+      "distribution": 81.4468,
+      "human uses": 54.0255,
+      "human-related": 99.6596,
+      "population dynamics": 17.9813,
+      "reproduction": 36.8222,
+      "species": 41.4403,
+      "trophic ecology": 31
+    }
+  },
+  {
+    "country": "Mayotte",
+    "data": {
+      "conservation": 45.3804,
+      "distribution": 93.4783,
+      "human uses": 61.6304,
+      "human-related": 100,
+      "population dynamics": 23.8482,
+      "reproduction": 42.8307,
+      "species": 47.1572,
+      "trophic ecology": 38.2473
+    }
+  },
+  {
+    "country": "Mexico",
+    "data": {
+      "conservation": 41.8879,
+      "distribution": 53.4657,
+      "human uses": 47.3586,
+      "human-related": 99.8501,
+      "population dynamics": 7.879,
+      "reproduction": 31.4181,
+      "species": 29.6135,
+      "trophic ecology": 21.2533
+    }
+  },
+  {
+    "country": "Micronesia",
+    "data": {
+      "conservation": 41.7647,
+      "distribution": 85.5326,
+      "human uses": 49.6343,
+      "human-related": 99.8808,
+      "population dynamics": 16.0445,
+      "reproduction": 34.0501,
+      "species": 40.9197,
+      "trophic ecology": 29.1932
+    }
+  },
+  {
+    "country": "Midway Is.",
+    "data": {
+      "conservation": 44.1667,
+      "distribution": 83.3333,
+      "human uses": 51.3889,
+      "human-related": 100,
+      "population dynamics": 10.9589,
+      "reproduction": 35.1643,
+      "species": 42.4145,
+      "trophic ecology": 35.7639
+    }
+  },
+  {
+    "country": "Moldova",
+    "data": {
+      "conservation": 44.6111,
+      "distribution": 92.3077,
+      "human uses": 63.6923,
+      "human-related": 99.2308,
+      "population dynamics": 3.0303,
+      "reproduction": 68.0783,
+      "species": 48.5207,
+      "trophic ecology": 45.3846
+    }
+  },
+  {
+    "country": "Monaco",
+    "data": {
+      "conservation": 51.8155,
+      "distribution": 96.5986,
+      "human uses": 63.4014,
+      "human-related": 99.8299,
+      "population dynamics": 40,
+      "reproduction": 56.5348,
+      "species": 47.7499,
+      "trophic ecology": 51.3605
+    }
+  },
+  {
+    "country": "Mongolia",
+    "data": {
+      "conservation": 40.9639,
+      "distribution": 53.6585,
+      "human uses": 50,
+      "human-related": 98.7805,
+      "population dynamics": 0,
+      "reproduction": 35.0494,
+      "species": 36.3039,
+      "trophic ecology": 26.2195
+    }
+  },
+  {
+    "country": "Montenegro",
+    "data": {
+      "conservation": 50.0319,
+      "distribution": 89.4737,
+      "human uses": 61.462,
+      "human-related": 99.8538,
+      "population dynamics": 34.2541,
+      "reproduction": 54.8399,
+      "species": 45.2991,
+      "trophic ecology": 47.7339
+    }
+  },
+  {
+    "country": "Montserrat",
+    "data": {
+      "conservation": 44.0594,
+      "distribution": 80.9406,
+      "human uses": 55.4455,
+      "human-related": 100,
+      "population dynamics": 29.3103,
+      "reproduction": 40.8009,
+      "species": 40.4989,
+      "trophic ecology": 48.3911
+    }
+  },
+  {
+    "country": "Morocco",
+    "data": {
+      "conservation": 46.8576,
+      "distribution": 87.3995,
+      "human uses": 57.9357,
+      "human-related": 99.933,
+      "population dynamics": 25.8398,
+      "reproduction": 42.5185,
+      "species": 39.4102,
+      "trophic ecology": 37.1314
+    }
+  },
+  {
+    "country": "Mozambique",
+    "data": {
+      "conservation": 42.4678,
+      "distribution": 75.6757,
+      "human uses": 54.3396,
+      "human-related": 99.7705,
+      "population dynamics": 15.533,
+      "reproduction": 31.5937,
+      "species": 36.1001,
+      "trophic ecology": 26.2749
+    }
+  },
+  {
+    "country": "Myanmar",
+    "data": {
+      "conservation": 42.6806,
+      "distribution": 67.8352,
+      "human uses": 54.6538,
+      "human-related": 99.7809,
+      "population dynamics": 14.4105,
+      "reproduction": 27.4408,
+      "species": 34.5311,
+      "trophic ecology": 21.078
+    }
+  },
+  {
+    "country": "Namibia",
+    "data": {
+      "conservation": 44.333,
+      "distribution": 80.2469,
+      "human uses": 57.915,
+      "human-related": 99.9314,
+      "population dynamics": 15.0203,
+      "reproduction": 29.6108,
+      "species": 33.3544,
+      "trophic ecology": 27.7435
+    }
+  },
+  {
+    "country": "Nauru",
+    "data": {
+      "conservation": 46.8966,
+      "distribution": 98.8506,
+      "human uses": 66.4368,
+      "human-related": 100,
+      "population dynamics": 23.8636,
+      "reproduction": 46.0142,
+      "species": 54.2882,
+      "trophic ecology": 52.8736
+    }
+  },
+  {
+    "country": "Nepal",
+    "data": {
+      "conservation": 40.166,
+      "distribution": 61.8257,
+      "human uses": 57.3444,
+      "human-related": 100,
+      "population dynamics": 0.8299,
+      "reproduction": 23.0769,
+      "species": 33.8972,
+      "trophic ecology": 15.1452
+    }
+  },
+  {
+    "country": "Neth Antilles",
+    "data": {
+      "conservation": 47.3988,
+      "distribution": 85.5491,
+      "human uses": 60.6936,
+      "human-related": 100,
+      "population dynamics": 28.5714,
+      "reproduction": 46.2328,
+      "species": 46.5985,
+      "trophic ecology": 52.8902
+    }
+  },
+  {
+    "country": "Netherlands",
+    "data": {
+      "conservation": 51.3637,
+      "distribution": 97.7578,
+      "human uses": 66.9058,
+      "human-related": 99.5516,
+      "population dynamics": 46.6135,
+      "reproduction": 67.6522,
+      "species": 55.3984,
+      "trophic ecology": 58.0717
+    }
+  },
+  {
+    "country": "New Caledonia",
+    "data": {
+      "conservation": 41.4675,
+      "distribution": 68.0834,
+      "human uses": 47.6824,
+      "human-related": 99.7795,
+      "population dynamics": 13.4054,
+      "reproduction": 29.2438,
+      "species": 34.7542,
+      "trophic ecology": 21.5217
+    }
+  },
+  {
+    "country": "New Zealand",
+    "data": {
+      "conservation": 42.9032,
+      "distribution": 60.9334,
+      "human uses": 50.3025,
+      "human-related": 99.8271,
+      "population dynamics": 22.4227,
+      "reproduction": 25.7058,
+      "species": 30.0778,
+      "trophic ecology": 21.4996
+    }
+  },
+  {
+    "country": "Nicaragua",
+    "data": {
+      "conservation": 42.9956,
+      "distribution": 69.6809,
+      "human uses": 54.6454,
+      "human-related": 99.9557,
+      "population dynamics": 12.4558,
+      "reproduction": 34.5215,
+      "species": 35.5769,
+      "trophic ecology": 30.8067
+    }
+  },
+  {
+    "country": "Niger",
+    "data": {
+      "conservation": 40,
+      "distribution": 62.2807,
+      "human uses": 64.7368,
+      "human-related": 100,
+      "population dynamics": 7.0175,
+      "reproduction": 25.9934,
+      "species": 38.4615,
+      "trophic ecology": 22.3684
+    }
+  },
+  {
+    "country": "Nigeria",
+    "data": {
+      "conservation": 43.1543,
+      "distribution": 63.2298,
+      "human uses": 61.1429,
+      "human-related": 99.6273,
+      "population dynamics": 8.642,
+      "reproduction": 29.5238,
+      "species": 33.1773,
+      "trophic ecology": 22.3913
+    }
+  },
+  {
+    "country": "Niue",
+    "data": {
+      "conservation": 44.0517,
+      "distribution": 95.2586,
+      "human uses": 59.7414,
+      "human-related": 99.7845,
+      "population dynamics": 30.0429,
+      "reproduction": 43.783,
+      "species": 49.9668,
+      "trophic ecology": 45.7974
+    }
+  },
+  {
+    "country": "Norfolk I.",
+    "data": {
+      "conservation": 42.8037,
+      "distribution": 76.0125,
+      "human uses": 51.7134,
+      "human-related": 99.6885,
+      "population dynamics": 35.7143,
+      "reproduction": 34.3157,
+      "species": 41.6247,
+      "trophic ecology": 34.2679
+    }
+  },
+  {
+    "country": "North Macedonia",
+    "data": {
+      "conservation": 40,
+      "distribution": 40.3509,
+      "human uses": 52.9825,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 30.0325,
+      "species": 27.6653,
+      "trophic ecology": 13.5965
+    }
+  },
+  {
+    "country": "North Marianas",
+    "data": {
+      "conservation": 42.5495,
+      "distribution": 90.7178,
+      "human uses": 52.9208,
+      "human-related": 100,
+      "population dynamics": 19.4067,
+      "reproduction": 39.0694,
+      "species": 44.2498,
+      "trophic ecology": 35.0557
+    }
+  },
+  {
+    "country": "Norway",
+    "data": {
+      "conservation": 50.1532,
+      "distribution": 97.0684,
+      "human uses": 62.0195,
+      "human-related": 99.6743,
+      "population dynamics": 48.2659,
+      "reproduction": 57.938,
+      "species": 49.8622,
+      "trophic ecology": 52.9316
+    }
+  },
+  {
+    "country": "Ogasawara Is.",
+    "data": {
+      "conservation": 42.2912,
+      "distribution": 86.5155,
+      "human uses": 52.4821,
+      "human-related": 99.7613,
+      "population dynamics": 23.6905,
+      "reproduction": 36.896,
+      "species": 42.6198,
+      "trophic ecology": 32.9654
+    }
+  },
+  {
+    "country": "Oman",
+    "data": {
+      "conservation": 43.918,
+      "distribution": 72.8281,
+      "human uses": 54.1035,
+      "human-related": 99.8614,
+      "population dynamics": 21.9355,
+      "reproduction": 35.953,
+      "species": 40.3882,
+      "trophic ecology": 27.2643
+    }
+  },
+  {
+    "country": "Pac Is Trust Tr",
+    "data": {
+      "conservation": 46.8966,
+      "distribution": 96.5517,
+      "human uses": 68.9655,
+      "human-related": 100,
+      "population dynamics": 10,
+      "reproduction": 52.9376,
+      "species": 52.5199,
+      "trophic ecology": 50.8621
+    }
+  },
+  {
+    "country": "Pakistan",
+    "data": {
+      "conservation": 44.637,
+      "distribution": 74.5308,
+      "human uses": 58.874,
+      "human-related": 99.7989,
+      "population dynamics": 18.6916,
+      "reproduction": 36.095,
+      "species": 41.4725,
+      "trophic ecology": 28.1501
+    }
+  },
+  {
+    "country": "Palau",
+    "data": {
+      "conservation": 41.7272,
+      "distribution": 83.1039,
+      "human uses": 48.1101,
+      "human-related": 99.8748,
+      "population dynamics": 14.75,
+      "reproduction": 33.1843,
+      "species": 39.3713,
+      "trophic ecology": 26.408
+    }
+  },
+  {
+    "country": "Palestine",
+    "data": {
+      "conservation": 63.3333,
+      "distribution": 100,
+      "human uses": 76.6667,
+      "human-related": 100,
+      "population dynamics": 16.6667,
+      "reproduction": 57.5758,
+      "species": 48.7179,
+      "trophic ecology": 50
+    }
+  },
+  {
+    "country": "Panama",
+    "data": {
+      "conservation": 42.0411,
+      "distribution": 58.2877,
+      "human uses": 51.6301,
+      "human-related": 99.9658,
+      "population dynamics": 9.3707,
+      "reproduction": 27.69,
+      "species": 31.0116,
+      "trophic ecology": 24.0411
+    }
+  },
+  {
+    "country": "Papua New Guinea",
+    "data": {
+      "conservation": 41.2979,
+      "distribution": 68.3255,
+      "human uses": 47.6664,
+      "human-related": 99.7814,
+      "population dynamics": 13.8777,
+      "reproduction": 29.4286,
+      "species": 33.7851,
+      "trophic ecology": 20.1244
+    }
+  },
+  {
+    "country": "Paraguay",
+    "data": {
+      "conservation": 40.2807,
+      "distribution": 30.8772,
+      "human uses": 44.0702,
+      "human-related": 99.8246,
+      "population dynamics": 3.5088,
+      "reproduction": 14.3647,
+      "species": 26.6127,
+      "trophic ecology": 6.8421
+    }
+  },
+  {
+    "country": "Peru",
+    "data": {
+      "conservation": 41.3055,
+      "distribution": 41.3543,
+      "human uses": 46.8561,
+      "human-related": 99.8489,
+      "population dynamics": 3.0157,
+      "reproduction": 20.8526,
+      "species": 26.2441,
+      "trophic ecology": 13.0593
+    }
+  },
+  {
+    "country": "Peter I I.",
+    "data": {
+      "conservation": 44,
+      "distribution": 80,
+      "human uses": 52,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 56.3636,
+      "species": 33.8462,
+      "trophic ecology": 50
+    }
+  },
+  {
+    "country": "Philippines",
+    "data": {
+      "conservation": 41.3897,
+      "distribution": 65.0892,
+      "human uses": 47.8367,
+      "human-related": 99.7837,
+      "population dynamics": 12.2063,
+      "reproduction": 28.1892,
+      "species": 32.7953,
+      "trophic ecology": 18.7939
+    }
+  },
+  {
+    "country": "Pitcairn",
+    "data": {
+      "conservation": 41.8953,
+      "distribution": 80.5486,
+      "human uses": 52.8678,
+      "human-related": 100,
+      "population dynamics": 19.403,
+      "reproduction": 34.389,
+      "species": 42.4707,
+      "trophic ecology": 32.6683
+    }
+  },
+  {
+    "country": "Poland",
+    "data": {
+      "conservation": 47.7973,
+      "distribution": 93.3775,
+      "human uses": 67.0199,
+      "human-related": 99.0066,
+      "population dynamics": 34.8837,
+      "reproduction": 68.7882,
+      "species": 54.3046,
+      "trophic ecology": 53.4768
+    }
+  },
+  {
+    "country": "Portugal",
+    "data": {
+      "conservation": 48.365,
+      "distribution": 90.0175,
+      "human uses": 59.1243,
+      "human-related": 99.8249,
+      "population dynamics": 32.9431,
+      "reproduction": 48.5488,
+      "species": 42.8533,
+      "trophic ecology": 41.9002
+    }
+  },
+  {
+    "country": "Prince Edward Is",
+    "data": {
+      "conservation": 47.1429,
+      "distribution": 92.8571,
+      "human uses": 54.2857,
+      "human-related": 100,
+      "population dynamics": 14.2857,
+      "reproduction": 16.0606,
+      "species": 31.3187,
+      "trophic ecology": 17.8571
+    }
+  },
+  {
+    "country": "Puerto Rico",
+    "data": {
+      "conservation": 42.6341,
+      "distribution": 67.3171,
+      "human uses": 51.878,
+      "human-related": 99.878,
+      "population dynamics": 18.2482,
+      "reproduction": 34.99,
+      "species": 35.8912,
+      "trophic ecology": 35.6402
+    }
+  },
+  {
+    "country": "Qatar",
+    "data": {
+      "conservation": 45.5642,
+      "distribution": 79.9611,
+      "human uses": 55.9533,
+      "human-related": 99.7082,
+      "population dynamics": 30.5447,
+      "reproduction": 41.0092,
+      "species": 44.2383,
+      "trophic ecology": 31.6634
+    }
+  },
+  {
+    "country": "Revillagigedo Is.",
+    "data": {
+      "conservation": 45.2,
+      "distribution": 73,
+      "human uses": 54.8,
+      "human-related": 100,
+      "population dynamics": 10.8911,
+      "reproduction": 35.4196,
+      "species": 36.2308,
+      "trophic ecology": 28.25
+    }
+  },
+  {
+    "country": "Rodriguez",
+    "data": {
+      "conservation": 43.3129,
+      "distribution": 76.6871,
+      "human uses": 54.1104,
+      "human-related": 99.3865,
+      "population dynamics": 20.2454,
+      "reproduction": 36.8972,
+      "species": 42.2841,
+      "trophic ecology": 29.908
+    }
+  },
+  {
+    "country": "Romania",
+    "data": {
+      "conservation": 47.3708,
+      "distribution": 85.446,
+      "human uses": 62.3474,
+      "human-related": 99.2958,
+      "population dynamics": 21.7778,
+      "reproduction": 61.5603,
+      "species": 47.2373,
+      "trophic ecology": 46.2441
+    }
+  },
+  {
+    "country": "Russia",
+    "data": {
+      "conservation": 43.7476,
+      "distribution": 57.5099,
+      "human uses": 51.087,
+      "human-related": 99.753,
+      "population dynamics": 18.714,
+      "reproduction": 34.4339,
+      "species": 33.4372,
+      "trophic ecology": 29.002
+    }
+  },
+  {
+    "country": "Rwanda",
+    "data": {
+      "conservation": 40,
+      "distribution": 67.0732,
+      "human uses": 66.3415,
+      "human-related": 100,
+      "population dynamics": 4.878,
+      "reproduction": 30.0642,
+      "species": 31.4259,
+      "trophic ecology": 23.1707
+    }
+  },
+  {
+    "country": "Ryukyu Is.",
+    "data": {
+      "conservation": 41.6709,
+      "distribution": 76.519,
+      "human uses": 48.0886,
+      "human-related": 99.6519,
+      "population dynamics": 14.981,
+      "reproduction": 30.7984,
+      "species": 37.3418,
+      "trophic ecology": 24.0981
+    }
+  },
+  {
+    "country": "S. Georg. Sandw.",
+    "data": {
+      "conservation": 47.8583,
+      "distribution": 73.7705,
+      "human uses": 51.4754,
+      "human-related": 98.3607,
+      "population dynamics": 4.918,
+      "reproduction": 34.3469,
+      "species": 33.4174,
+      "trophic ecology": 29.918
+    }
+  },
+  {
+    "country": "Samoa",
+    "data": {
+      "conservation": 42.1302,
+      "distribution": 87.574,
+      "human uses": 51.5976,
+      "human-related": 99.9507,
+      "population dynamics": 17.2244,
+      "reproduction": 36.0164,
+      "species": 42.118,
+      "trophic ecology": 30.7199
+    }
+  },
+  {
+    "country": "Sao Tome Princ.",
+    "data": {
+      "conservation": 45.7487,
+      "distribution": 77.4194,
+      "human uses": 58.7634,
+      "human-related": 100,
+      "population dynamics": 20.1592,
+      "reproduction": 35.4503,
+      "species": 37.8412,
+      "trophic ecology": 32.9973
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "data": {
+      "conservation": 44.3341,
+      "distribution": 75.0564,
+      "human uses": 54.2664,
+      "human-related": 99.7743,
+      "population dynamics": 23.3371,
+      "reproduction": 37.1806,
+      "species": 41.4916,
+      "trophic ecology": 28.781
+    }
+  },
+  {
+    "country": "Scott I.",
+    "data": {
+      "conservation": 56.6667,
+      "distribution": 83.3333,
+      "human uses": 56.6667,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 57.5758,
+      "species": 46.1538,
+      "trophic ecology": 37.5
+    }
+  },
+  {
+    "country": "Senegal",
+    "data": {
+      "conservation": 45.4044,
+      "distribution": 75.5556,
+      "human uses": 60.3704,
+      "human-related": 99.9383,
+      "population dynamics": 15.5718,
+      "reproduction": 35.0642,
+      "species": 36.5242,
+      "trophic ecology": 29.6605
+    }
+  },
+  {
+    "country": "Serbia",
+    "data": {
+      "conservation": 45.0931,
+      "distribution": 91.2621,
+      "human uses": 64.2718,
+      "human-related": 99.5146,
+      "population dynamics": 4.8077,
+      "reproduction": 66.8125,
+      "species": 47.9462,
+      "trophic ecology": 45.8738
+    }
+  },
+  {
+    "country": "Seychelles",
+    "data": {
+      "conservation": 42.5218,
+      "distribution": 79.6987,
+      "human uses": 52.5615,
+      "human-related": 99.7224,
+      "population dynamics": 16.7722,
+      "reproduction": 34.5028,
+      "species": 40.3709,
+      "trophic ecology": 28.41
+    }
+  },
+  {
+    "country": "Sierra Leone",
+    "data": {
+      "conservation": 44.1732,
+      "distribution": 68.2652,
+      "human uses": 59.2102,
+      "human-related": 99.9295,
+      "population dynamics": 10.9091,
+      "reproduction": 30.521,
+      "species": 33.742,
+      "trophic ecology": 24.4358
+    }
+  },
+  {
+    "country": "Singapore",
+    "data": {
+      "conservation": 43.2928,
+      "distribution": 79.0823,
+      "human uses": 55.0607,
+      "human-related": 99.6626,
+      "population dynamics": 21.2938,
+      "reproduction": 35.7841,
+      "species": 40.1952,
+      "trophic ecology": 28.1377
+    }
+  },
+  {
+    "country": "Slovakia",
+    "data": {
+      "conservation": 44.7603,
+      "distribution": 92.1569,
+      "human uses": 65.4902,
+      "human-related": 99.0196,
+      "population dynamics": 2.8846,
+      "reproduction": 66.4632,
+      "species": 50.6033,
+      "trophic ecology": 47.549
+    }
+  },
+  {
+    "country": "Slovenia",
+    "data": {
+      "conservation": 49.5044,
+      "distribution": 93.674,
+      "human uses": 61.6545,
+      "human-related": 99.8783,
+      "population dynamics": 31.1778,
+      "reproduction": 57.731,
+      "species": 45.7982,
+      "trophic ecology": 48.4185
+    }
+  },
+  {
+    "country": "Socotra Arch.",
+    "data": {
+      "conservation": 43.9723,
+      "distribution": 83.8337,
+      "human uses": 59.261,
+      "human-related": 99.8845,
+      "population dynamics": 25.576,
+      "reproduction": 38.0524,
+      "species": 44.7149,
+      "trophic ecology": 34.0647
+    }
+  },
+  {
+    "country": "Solomon Is.",
+    "data": {
+      "conservation": 41.978,
+      "distribution": 77.7223,
+      "human uses": 48.0719,
+      "human-related": 99.8501,
+      "population dynamics": 12.8743,
+      "reproduction": 33.4271,
+      "species": 38.1388,
+      "trophic ecology": 23.2767
+    }
+  },
+  {
+    "country": "Somalia",
+    "data": {
+      "conservation": 44.41,
+      "distribution": 80.973,
+      "human uses": 59.3946,
+      "human-related": 99.9459,
+      "population dynamics": 22.6293,
+      "reproduction": 37.5582,
+      "species": 42.4366,
+      "trophic ecology": 32.4324
+    }
+  },
+  {
+    "country": "South Africa",
+    "data": {
+      "conservation": 42.9051,
+      "distribution": 72.8829,
+      "human uses": 53.864,
+      "human-related": 99.8843,
+      "population dynamics": 15.9614,
+      "reproduction": 30.3483,
+      "species": 34.845,
+      "trophic ecology": 25.1273
+    }
+  },
+  {
+    "country": "South Orkney Is.",
+    "data": {
+      "conservation": 47.2131,
+      "distribution": 77.0492,
+      "human uses": 55.4098,
+      "human-related": 100,
+      "population dynamics": 1.6393,
+      "reproduction": 45.6036,
+      "species": 36.9483,
+      "trophic ecology": 35.6557
+    }
+  },
+  {
+    "country": "South Shetland",
+    "data": {
+      "conservation": 46.9841,
+      "distribution": 66.6667,
+      "human uses": 55.873,
+      "human-related": 98.4127,
+      "population dynamics": 1.5873,
+      "reproduction": 40.9812,
+      "species": 34.3101,
+      "trophic ecology": 32.1429
+    }
+  },
+  {
+    "country": "South Sudan",
+    "data": {
+      "conservation": 40,
+      "distribution": 71.8447,
+      "human uses": 73.3981,
+      "human-related": 100,
+      "population dynamics": 5.8252,
+      "reproduction": 28.1491,
+      "species": 37.3413,
+      "trophic ecology": 26.4563
+    }
+  },
+  {
+    "country": "Spain",
+    "data": {
+      "conservation": 46.8879,
+      "distribution": 87.2107,
+      "human uses": 57.3934,
+      "human-related": 99.7564,
+      "population dynamics": 27.7518,
+      "reproduction": 45.8874,
+      "species": 40.9444,
+      "trophic ecology": 38.6114
+    }
+  },
+  {
+    "country": "Sri Lanka",
+    "data": {
+      "conservation": 43.2041,
+      "distribution": 80.453,
+      "human uses": 56.2081,
+      "human-related": 99.7483,
+      "population dynamics": 20.9205,
+      "reproduction": 36.6225,
+      "species": 40.3007,
+      "trophic ecology": 29.8448
+    }
+  },
+  {
+    "country": "St Helena",
+    "data": {
+      "conservation": 45.6818,
+      "distribution": 72.7273,
+      "human uses": 56.8182,
+      "human-related": 99.7159,
+      "population dynamics": 26.4045,
+      "reproduction": 38.3415,
+      "species": 37.4563,
+      "trophic ecology": 35.6534
+    }
+  },
+  {
+    "country": "St Kitts Nevis",
+    "data": {
+      "conservation": 43.957,
+      "distribution": 81.2903,
+      "human uses": 56.2581,
+      "human-related": 100,
+      "population dynamics": 28.2655,
+      "reproduction": 41.2091,
+      "species": 40.5459,
+      "trophic ecology": 47.7419
+    }
+  },
+  {
+    "country": "St Lucia",
+    "data": {
+      "conservation": 43.6874,
+      "distribution": 80.9619,
+      "human uses": 55.9118,
+      "human-related": 100,
+      "population dynamics": 27.9441,
+      "reproduction": 40.2198,
+      "species": 40.2651,
+      "trophic ecology": 47.3447
+    }
+  },
+  {
+    "country": "St Maarten (NL)",
+    "data": {
+      "conservation": 45,
+      "distribution": 100,
+      "human uses": 75,
+      "human-related": 100,
+      "population dynamics": 25,
+      "reproduction": 52.2727,
+      "species": 59.6154,
+      "trophic ecology": 75
+    }
+  },
+  {
+    "country": "St Martin (FR)",
+    "data": {
+      "conservation": 44,
+      "distribution": 80,
+      "human uses": 72,
+      "human-related": 100,
+      "population dynamics": 40,
+      "reproduction": 47.2727,
+      "species": 47.6923,
+      "trophic ecology": 60
+    }
+  },
+  {
+    "country": "St Paul I.",
+    "data": {
+      "conservation": 47.8947,
+      "distribution": 71.0526,
+      "human uses": 53.6842,
+      "human-related": 100,
+      "population dynamics": 41.0256,
+      "reproduction": 25.7269,
+      "species": 35.4251,
+      "trophic ecology": 25
+    }
+  },
+  {
+    "country": "St Paul's Rocks",
+    "data": {
+      "conservation": 46.3492,
+      "distribution": 82.5397,
+      "human uses": 56.8254,
+      "human-related": 100,
+      "population dynamics": 52.381,
+      "reproduction": 40.9812,
+      "species": 39.8046,
+      "trophic ecology": 45.6349
+    }
+  },
+  {
+    "country": "St Pierre Mique.",
+    "data": {
+      "conservation": 46.1538,
+      "distribution": 92.3077,
+      "human uses": 60,
+      "human-related": 100,
+      "population dynamics": 50,
+      "reproduction": 50.8492,
+      "species": 46.1538,
+      "trophic ecology": 44.2308
+    }
+  },
+  {
+    "country": "St Vincent Gren.",
+    "data": {
+      "conservation": 43.6735,
+      "distribution": 81.4286,
+      "human uses": 55.9592,
+      "human-related": 100,
+      "population dynamics": 27.6423,
+      "reproduction": 39.888,
+      "species": 40.3297,
+      "trophic ecology": 47.449
+    }
+  },
+  {
+    "country": "Sudan",
+    "data": {
+      "conservation": 44.7967,
+      "distribution": 80.8943,
+      "human uses": 60.2846,
+      "human-related": 99.8984,
+      "population dynamics": 18.4584,
+      "reproduction": 39.0291,
+      "species": 44.2308,
+      "trophic ecology": 34.4004
+    }
+  },
+  {
+    "country": "Suriname",
+    "data": {
+      "conservation": 42.3254,
+      "distribution": 62.8205,
+      "human uses": 52.619,
+      "human-related": 99.8626,
+      "population dynamics": 12.2263,
+      "reproduction": 29.5959,
+      "species": 33.9391,
+      "trophic ecology": 27.5183
+    }
+  },
+  {
+    "country": "Svalbard",
+    "data": {
+      "conservation": 48.1356,
+      "distribution": 98.3051,
+      "human uses": 58.3051,
+      "human-related": 100,
+      "population dynamics": 63.8889,
+      "reproduction": 44.1697,
+      "species": 43.2855,
+      "trophic ecology": 50.8475
+    }
+  },
+  {
+    "country": "Sweden",
+    "data": {
+      "conservation": 51.7896,
+      "distribution": 95.8015,
+      "human uses": 64.8855,
+      "human-related": 99.6183,
+      "population dynamics": 44.9324,
+      "reproduction": 63.2889,
+      "species": 53.2002,
+      "trophic ecology": 54.5802
+    }
+  },
+  {
+    "country": "Switzerland",
+    "data": {
+      "conservation": 43.0404,
+      "distribution": 72.381,
+      "human uses": 61.7143,
+      "human-related": 99.5238,
+      "population dynamics": 3.7383,
+      "reproduction": 59.5006,
+      "species": 44.6886,
+      "trophic ecology": 38.0952
+    }
+  },
+  {
+    "country": "Syria",
+    "data": {
+      "conservation": 49.0151,
+      "distribution": 86.8293,
+      "human uses": 59.4634,
+      "human-related": 99.878,
+      "population dynamics": 32.1678,
+      "reproduction": 48.9463,
+      "species": 45.3846,
+      "trophic ecology": 43.2927
+    }
+  },
+  {
+    "country": "Tahiti",
+    "data": {
+      "conservation": 43.7607,
+      "distribution": 82.0513,
+      "human uses": 55.5556,
+      "human-related": 99.8575,
+      "population dynamics": 18.6969,
+      "reproduction": 37.9835,
+      "species": 44.3568,
+      "trophic ecology": 33.9744
+    }
+  },
+  {
+    "country": "Tajikistan",
+    "data": {
+      "conservation": 48,
+      "distribution": 20,
+      "human uses": 52,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 23.0303,
+      "species": 30.7692,
+      "trophic ecology": 15
+    }
+  },
+  {
+    "country": "Tanzania",
+    "data": {
+      "conservation": 41.9131,
+      "distribution": 73.7039,
+      "human uses": 55.4249,
+      "human-related": 99.9198,
+      "population dynamics": 12.48,
+      "reproduction": 29.8516,
+      "species": 32.6851,
+      "trophic ecology": 24.7461
+    }
+  },
+  {
+    "country": "Terre Adélie",
+    "data": {
+      "conservation": 45,
+      "distribution": 100,
+      "human uses": 55,
+      "human-related": 100,
+      "population dynamics": 0,
+      "reproduction": 64.2045,
+      "species": 43.2692,
+      "trophic ecology": 45.3125
+    }
+  },
+  {
+    "country": "Thailand",
+    "data": {
+      "conservation": 41.8636,
+      "distribution": 71.6973,
+      "human uses": 50.9106,
+      "human-related": 99.7862,
+      "population dynamics": 15.2369,
+      "reproduction": 27.1894,
+      "species": 33.9724,
+      "trophic ecology": 20.5002
+    }
+  },
+  {
+    "country": "Timor-Leste",
+    "data": {
+      "conservation": 41.9561,
+      "distribution": 86.9287,
+      "human uses": 51.8282,
+      "human-related": 99.9086,
+      "population dynamics": 21.6438,
+      "reproduction": 36.1215,
+      "species": 42.3218,
+      "trophic ecology": 30.7358
+    }
+  },
+  {
+    "country": "Togo",
+    "data": {
+      "conservation": 44.3262,
+      "distribution": 73.9965,
+      "human uses": 59.3717,
+      "human-related": 99.7382,
+      "population dynamics": 11.4187,
+      "reproduction": 33.581,
+      "species": 36.7432,
+      "trophic ecology": 27.9232
+    }
+  },
+  {
+    "country": "Tokelau",
+    "data": {
+      "conservation": 48.9831,
+      "distribution": 96.6102,
+      "human uses": 70.1695,
+      "human-related": 99.5763,
+      "population dynamics": 24.1667,
+      "reproduction": 53.3506,
+      "species": 54.6284,
+      "trophic ecology": 51.2712
+    }
+  },
+  {
+    "country": "Tonga",
+    "data": {
+      "conservation": 41.8569,
+      "distribution": 82.5383,
+      "human uses": 49.3697,
+      "human-related": 99.9574,
+      "population dynamics": 16.3404,
+      "reproduction": 35.4626,
+      "species": 40.9776,
+      "trophic ecology": 28.6627
+    }
+  },
+  {
+    "country": "Trind. M.Vaz Is.",
+    "data": {
+      "conservation": 43.2184,
+      "distribution": 91.954,
+      "human uses": 59.0805,
+      "human-related": 100,
+      "population dynamics": 55.6818,
+      "reproduction": 43.5998,
+      "species": 43.3245,
+      "trophic ecology": 55.4598
+    }
+  },
+  {
+    "country": "Trinidad Tobago",
+    "data": {
+      "conservation": 42.7212,
+      "distribution": 67.278,
+      "human uses": 52.5097,
+      "human-related": 99.9517,
+      "population dynamics": 15.8654,
+      "reproduction": 33.4968,
+      "species": 35.6846,
+      "trophic ecology": 33.7597
+    }
+  },
+  {
+    "country": "Tristan da Cunha",
+    "data": {
+      "conservation": 47.7419,
+      "distribution": 74.1935,
+      "human uses": 56.129,
+      "human-related": 100,
+      "population dynamics": 12.9032,
+      "reproduction": 29.7379,
+      "species": 35.732,
+      "trophic ecology": 22.5806
+    }
+  },
+  {
+    "country": "Tuamotu Is.",
+    "data": {
+      "conservation": 42.5607,
+      "distribution": 85.6512,
+      "human uses": 52.3179,
+      "human-related": 100,
+      "population dynamics": 17.8022,
+      "reproduction": 38.2244,
+      "species": 44.1841,
+      "trophic ecology": 33.9404
+    }
+  },
+  {
+    "country": "Tunisia",
+    "data": {
+      "conservation": 50.7355,
+      "distribution": 95.4545,
+      "human uses": 62.9947,
+      "human-related": 99.8663,
+      "population dynamics": 36.962,
+      "reproduction": 55.7594,
+      "species": 47.717,
+      "trophic ecology": 49.9332
+    }
+  },
+  {
+    "country": "Turkey",
+    "data": {
+      "conservation": 45.6703,
+      "distribution": 69.4681,
+      "human uses": 53.7872,
+      "human-related": 99.5745,
+      "population dynamics": 21.6718,
+      "reproduction": 39.2858,
+      "species": 38.8052,
+      "trophic ecology": 30.4255
+    }
+  },
+  {
+    "country": "Turkmenistan",
+    "data": {
+      "conservation": 45.3744,
+      "distribution": 77.4648,
+      "human uses": 53.5211,
+      "human-related": 100,
+      "population dynamics": 4.2254,
+      "reproduction": 49.4291,
+      "species": 41.1701,
+      "trophic ecology": 33.4507
+    }
+  },
+  {
+    "country": "Turks Caicos Is.",
+    "data": {
+      "conservation": 44.042,
+      "distribution": 82.1522,
+      "human uses": 54.9606,
+      "human-related": 100,
+      "population dynamics": 28.9817,
+      "reproduction": 39.1406,
+      "species": 40.4199,
+      "trophic ecology": 47.9659
+    }
+  },
+  {
+    "country": "Tuvalu",
+    "data": {
+      "conservation": 49.0452,
+      "distribution": 94.4724,
+      "human uses": 68.5427,
+      "human-related": 99.7487,
+      "population dynamics": 23.3831,
+      "reproduction": 48.0782,
+      "species": 52.6865,
+      "trophic ecology": 47.6131
+    }
+  },
+  {
+    "country": "UK",
+    "data": {
+      "conservation": 49.5625,
+      "distribution": 92.3596,
+      "human uses": 61.3933,
+      "human-related": 99.7753,
+      "population dynamics": 40.6639,
+      "reproduction": 56.0744,
+      "species": 47.5713,
+      "trophic ecology": 48.7079
+    }
+  },
+  {
+    "country": "UK Engld Wal",
+    "data": {
+      "conservation": 52.7159,
+      "distribution": 94.4882,
+      "human uses": 63.1496,
+      "human-related": 100,
+      "population dynamics": 48.951,
+      "reproduction": 58.4719,
+      "species": 50.5148,
+      "trophic ecology": 51.9685
+    }
+  },
+  {
+    "country": "UK No Ireld",
+    "data": {
+      "conservation": 52.0677,
+      "distribution": 95.9596,
+      "human uses": 61.2121,
+      "human-related": 100,
+      "population dynamics": 50,
+      "reproduction": 57.6513,
+      "species": 48.6402,
+      "trophic ecology": 51.7677
+    }
+  },
+  {
+    "country": "UK Scotland",
+    "data": {
+      "conservation": 50.6035,
+      "distribution": 90.2098,
+      "human uses": 60,
+      "human-related": 100,
+      "population dynamics": 46.8354,
+      "reproduction": 56.0997,
+      "species": 46.369,
+      "trophic ecology": 48.951
+    }
+  },
+  {
+    "country": "US Minor Is.",
+    "data": {
+      "conservation": 43.9252,
+      "distribution": 91.5888,
+      "human uses": 57.5701,
+      "human-related": 100,
+      "population dynamics": 20.3704,
+      "reproduction": 46.7274,
+      "species": 48.8857,
+      "trophic ecology": 39.7196
+    }
+  },
+  {
+    "country": "US Misc Pac",
+    "data": {
+      "conservation": 53.3333,
+      "distribution": 100,
+      "human uses": 75.5556,
+      "human-related": 100,
+      "population dynamics": 11.1111,
+      "reproduction": 56.3636,
+      "species": 60.6838,
+      "trophic ecology": 58.3333
+    }
+  },
+  {
+    "country": "USA",
+    "data": {
+      "conservation": 42.2029,
+      "distribution": 60.1405,
+      "human uses": 44.9505,
+      "human-related": 99.7924,
+      "population dynamics": 10.1711,
+      "reproduction": 34.1773,
+      "species": 30.1796,
+      "trophic ecology": 23.1396
+    }
+  },
+  {
+    "country": "Uganda",
+    "data": {
+      "conservation": 40.0669,
+      "distribution": 73.913,
+      "human uses": 53.7793,
+      "human-related": 100,
+      "population dynamics": 2.0067,
+      "reproduction": 28.4199,
+      "species": 23.8745,
+      "trophic ecology": 19.5652
+    }
+  },
+  {
+    "country": "Ukraine",
+    "data": {
+      "conservation": 46.6855,
+      "distribution": 83.4008,
+      "human uses": 60.2429,
+      "human-related": 99.5951,
+      "population dynamics": 23.4615,
+      "reproduction": 59.9422,
+      "species": 44.9704,
+      "trophic ecology": 45.2429
+    }
+  },
+  {
+    "country": "United Arab Em.",
+    "data": {
+      "conservation": 45.5303,
+      "distribution": 80.303,
+      "human uses": 56.4394,
+      "human-related": 99.8106,
+      "population dynamics": 30.1136,
+      "reproduction": 41.0727,
+      "species": 44.5367,
+      "trophic ecology": 31.8655
+    }
+  },
+  {
+    "country": "Uruguay",
+    "data": {
+      "conservation": 44.3368,
+      "distribution": 61.7105,
+      "human uses": 51.6579,
+      "human-related": 99.7368,
+      "population dynamics": 12.6797,
+      "reproduction": 29.2426,
+      "species": 34.7267,
+      "trophic ecology": 24.5724
+    }
+  },
+  {
+    "country": "Uzbekistan",
+    "data": {
+      "conservation": 43.7323,
+      "distribution": 76.4045,
+      "human uses": 58.8764,
+      "human-related": 100,
+      "population dynamics": 3.3708,
+      "reproduction": 51.2902,
+      "species": 43.4745,
+      "trophic ecology": 35.1124
+    }
+  },
+  {
+    "country": "Vanuatu",
+    "data": {
+      "conservation": 42.2096,
+      "distribution": 79.1572,
+      "human uses": 52.1868,
+      "human-related": 99.7153,
+      "population dynamics": 17.7474,
+      "reproduction": 36.0348,
+      "species": 40.1875,
+      "trophic ecology": 29.1002
+    }
+  },
+  {
+    "country": "Venezuela",
+    "data": {
+      "conservation": 41.5744,
+      "distribution": 44.9381,
+      "human uses": 48.4589,
+      "human-related": 99.8594,
+      "population dynamics": 8.525,
+      "reproduction": 21.902,
+      "species": 28.5022,
+      "trophic ecology": 20.0366
+    }
+  },
+  {
+    "country": "Viet Nam",
+    "data": {
+      "conservation": 41.8384,
+      "distribution": 74.9615,
+      "human uses": 49.9308,
+      "human-related": 99.8654,
+      "population dynamics": 16.8587,
+      "reproduction": 29.0081,
+      "species": 35.3787,
+      "trophic ecology": 22.8269
+    }
+  },
+  {
+    "country": "Virgin Is. (UK)",
+    "data": {
+      "conservation": 43.5685,
+      "distribution": 75.5187,
+      "human uses": 53.8174,
+      "human-related": 100,
+      "population dynamics": 27.4793,
+      "reproduction": 37.9065,
+      "species": 38.6052,
+      "trophic ecology": 44.6058
+    }
+  },
+  {
+    "country": "Virgin Is. (US)",
+    "data": {
+      "conservation": 43.2986,
+      "distribution": 69.9653,
+      "human uses": 53.0556,
+      "human-related": 99.9132,
+      "population dynamics": 24.3945,
+      "reproduction": 36.5945,
+      "species": 37.2997,
+      "trophic ecology": 40.842
+    }
+  },
+  {
+    "country": "Wake I.",
+    "data": {
+      "conservation": 43.7069,
+      "distribution": 92.6724,
+      "human uses": 55.1724,
+      "human-related": 100,
+      "population dynamics": 20.6009,
+      "reproduction": 42.3343,
+      "species": 46.187,
+      "trophic ecology": 38.4698
+    }
+  },
+  {
+    "country": "Wallis Futuna",
+    "data": {
+      "conservation": 46.6986,
+      "distribution": 84.2105,
+      "human uses": 62.5837,
+      "human-related": 100,
+      "population dynamics": 26.1905,
+      "reproduction": 43.2904,
+      "species": 47.9573,
+      "trophic ecology": 42.4641
+    }
+  },
+  {
+    "country": "West Sahara",
+    "data": {
+      "conservation": 46.9266,
+      "distribution": 87.0246,
+      "human uses": 56.3758,
+      "human-related": 100,
+      "population dynamics": 24.1304,
+      "reproduction": 38.3449,
+      "species": 37.6183,
+      "trophic ecology": 33.7248
+    }
+  },
+  {
+    "country": "Yemen",
+    "data": {
+      "conservation": 44.6015,
+      "distribution": 81.1054,
+      "human uses": 57.3008,
+      "human-related": 99.8072,
+      "population dynamics": 22.6923,
+      "reproduction": 38.829,
+      "species": 43.7018,
+      "trophic ecology": 33.0013
+    }
+  },
+  {
+    "country": "Zambia",
+    "data": {
+      "conservation": 40.0442,
+      "distribution": 63.5762,
+      "human uses": 61.1038,
+      "human-related": 100,
+      "population dynamics": 6.1674,
+      "reproduction": 20.4054,
+      "species": 25.3863,
+      "trophic ecology": 18.2119
+    }
+  },
+  {
+    "country": "Zimbabwe",
+    "data": {
+      "conservation": 40.6402,
+      "distribution": 87.1795,
+      "human uses": 65.8974,
+      "human-related": 100,
+      "population dynamics": 19.7452,
+      "reproduction": 29.9041,
+      "species": 36.8836,
+      "trophic ecology": 31.25
+    }
+  }
+]
