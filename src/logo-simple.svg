@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="36" height="36" rx="8" fill="#3498db"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="system-ui" font-size="16" font-weight="600">
-    FB
-  </text>
+  <rect width="36" height="36" rx="8" fill="url(#gradient)"/>
+  <path d="M11.4 18.32V23H13.2V20.78H14.48C16.24 20.78 17.36 19.74 17.36 18.08C17.36 16.44 16.26 15.4 14.52 15.4H11.4V18.32ZM13.2 16.84H14.22C15.1 16.84 15.54 17.28 15.54 18.08C15.54 18.88 15.1 19.34 14.22 19.34H13.2V16.84Z" fill="white"/>
+  <path d="M18.4 23H24.4V21.56H20.2V19.86H24V18.42H20.2V16.84H24.3V15.4H18.4V23Z" fill="white"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+    </linearGradient>
+  </defs>
 </svg> 

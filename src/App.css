@@ -50,6 +50,8 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .light-mode .app-header {
@@ -84,12 +86,15 @@
   border-radius: 10px;
   background: transparent;
   transition: transform 0.2s ease;
+  will-change: transform;
 }
 
 .logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .logo:hover {
@@ -193,6 +198,8 @@ main {
   z-index: 1001;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  will-change: transform, opacity;
+  transform: translateZ(0);
 }
 
 .light-mode .analysis-panel {
@@ -215,6 +222,8 @@ main {
   z-index: 1;
   background-color: inherit;
   border-radius: 12px 12px 0 0;
+  will-change: transform, opacity;
+  transform: translateZ(0);
 }
 
 .light-mode .panel-header {
@@ -534,6 +543,8 @@ main {
   z-index: 2;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  will-change: transform, opacity;
+  transform: translateZ(0);
 }
 
 .light-mode .map-legend {
@@ -831,6 +842,8 @@ main {
   height: 100%;
   background-color: var(--dark-bg);
   z-index: 1;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 /* Map Hint */
@@ -853,6 +866,8 @@ main {
   align-items: center;
   gap: 8px;
   animation: fadeIn 0.3s ease-out;
+  will-change: transform, opacity;
+  transform: translateZ(0);
 }
 
 .hint-close {
@@ -916,6 +931,7 @@ main {
   width: 100%;
   height: 100%;
   z-index: 1;
+  will-change: transform;
 }
 
 .mapboxgl-canvas {
@@ -1163,4 +1179,22 @@ main {
 
 .light-mode .close-info:hover {
   background: rgba(0, 0, 0, 0.08);
+}
+
+/* Add hardware acceleration for animations */
+.map-hint,
+.info-panel,
+.analysis-panel,
+.map-legend {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

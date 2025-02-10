@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import './App.css';
 import WorldMap from './components/WorldMap';
 import logo from './logo-simple.svg';
@@ -7,27 +7,39 @@ function App() {
   const [isDark, setIsDark] = useState(true);
   const [showInfo, setShowInfo] = useState(false);
 
+  const handleThemeToggle = useCallback(() => {
+    setIsDark(prev => !prev);
+  }, []);
+
+  const handleInfoToggle = useCallback(() => {
+    setShowInfo(prev => !prev);
+  }, []);
+
+  const handleCloseInfo = useCallback(() => {
+    setShowInfo(false);
+  }, []);
+
   return (
     <div className={`App ${!isDark ? 'light-mode' : ''}`}>
       <header className="app-header">
         <div className="header-content">
           <div className="header-left">
             <div className="logo">
-              <img src={logo} alt="Logo" />
+              <img src={logo} alt="Logo" loading="eager" />
             </div>
             <h1>FishBase Data Coverage Analysis</h1>
           </div>
           <div className="header-right">
             <button 
               className="header-button"
-              onClick={() => setShowInfo(true)}
+              onClick={handleInfoToggle}
               title="About this visualization"
             >
               About
             </button>
             <button 
               className="theme-toggle" 
-              onClick={() => setIsDark(!isDark)}
+              onClick={handleThemeToggle}
               aria-label="Toggle theme"
             >
               {isDark ? '☀️' : '🌙'}
@@ -57,7 +69,7 @@ function App() {
             </p>
             <button 
               className="close-info" 
-              onClick={() => setShowInfo(false)}
+              onClick={handleCloseInfo}
               aria-label="Close information panel"
             >
               ✕
@@ -72,4 +84,4 @@ function App() {
   );
 }
 
-export default App;
+export default React.memo(App);
