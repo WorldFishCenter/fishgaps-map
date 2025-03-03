@@ -3,6 +3,10 @@
   --header-height: 64px;
   --panel-width: 380px;
   
+  /* Vite branded colors */
+  --vite-purple: #646cff;
+  --vite-blue: #41d1ff;
+  
   /* Dark mode colors */
   --dark-bg: #1a1a1a;
   --dark-panel-bg: rgba(26, 26, 26, 0.95);
@@ -120,25 +124,25 @@
 }
 
 .header-button {
-  background: rgba(52, 152, 219, 0.1);
-  border: 1px solid rgba(52, 152, 219, 0.2);
+  background: rgba(100, 108, 255, 0.1);
+  border: 1px solid rgba(100, 108, 255, 0.2);
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
-  color: #3498db;
+  color: var(--vite-purple);
   font-size: 14px;
   font-weight: 500;
   transition: all 0.2s ease;
 }
 
 .header-button:hover {
-  background: rgba(52, 152, 219, 0.15);
+  background: rgba(100, 108, 255, 0.15);
   transform: translateY(-1px);
 }
 
 .light-mode .header-button {
-  background: rgba(52, 152, 219, 0.08);
-  border: 1px solid rgba(52, 152, 219, 0.15);
+  background: rgba(100, 108, 255, 0.08);
+  border: 1px solid rgba(100, 108, 255, 0.15);
 }
 
 .theme-toggle {
