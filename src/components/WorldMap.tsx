@@ -4,13 +4,13 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import mapData from '../data/map_data.json';
 import CountryAnalysis from './CountryAnalysis';
 
-// Access the environment variable
-const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
+// Access the environment variable - support both CRA and Vite formats
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || process.env.REACT_APP_MAPBOX_TOKEN;
 
 console.log('Mapbox Token:', MAPBOX_TOKEN); // Debug log
 
 if (!MAPBOX_TOKEN) {
-  throw new Error('Mapbox token is required. Please add it to your .env file as REACT_APP_MAPBOX_TOKEN');
+  throw new Error('Mapbox token is required. Please add it to your .env file as VITE_MAPBOX_TOKEN');
 }
 
 // Set the access token
