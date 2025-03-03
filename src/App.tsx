@@ -1,7 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import './App.css';
 import WorldMap from './components/WorldMap';
-import logo from './logo-simple.svg';
 
 function App() {
   const [isDark, setIsDark] = useState(true);
@@ -25,7 +24,7 @@ function App() {
         <div className="header-content">
           <div className="header-left">
             <div className="logo">
-              <img src={logo} alt="Logo" loading="eager" />
+              <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/WorldFish_logo.svg" alt="WorldFish Logo" />
             </div>
             <h1>FishBase Data Coverage Analysis</h1>
           </div>
