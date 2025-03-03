@@ -10,6 +10,11 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
+    // Configure build output directory to match CRA's "build" instead of Vite's default "dist"
+    build: {
+      outDir: 'build',
+      emptyOutDir: true
+    },
     resolve: {
       alias: {
         // If you have any path aliases in your CRA app, define them here
